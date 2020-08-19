@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockContactsList has expected structure 1`] = `
+<ul
+  class="contacts-list"
+>
+  <li
+    class="contacts-list__item"
+  >
+    <svg-icon-stub
+      class="contacts-list__icon"
+      height="16"
+      name="phone"
+      width="16"
+    />
+     
+    <span
+      class="contacts-list__description"
+    >
+      <span
+        class="contacts-list__title"
+      >
+        
+        
+      
+      </span>
+       
+      <a
+        class="contacts-list__link"
+        href="tel:0800332512"
+      >
+        
+        0 800 332 512
+      
+      </a>
+    </span>
+  </li>
+   
+  <li
+    class="contacts-list__item"
+  >
+    <svg-icon-stub
+      class="contacts-list__icon"
+      height="16"
+      name="mail"
+      width="16"
+    />
+     
+    <span
+      class="contacts-list__description"
+    >
+      <span
+        class="contacts-list__title"
+      >
+        
+        
+      
+      </span>
+       
+      <a
+        class="contacts-list__link"
+        href="mailto:office@virna.com.ua"
+      >
+        
+        office@virna.com.ua
+      
+      </a>
+    </span>
+  </li>
+   
+  <li
+    class="contacts-list__item"
+  >
+    <svg-icon-stub
+      class="contacts-list__icon"
+      height="16"
+      name="headset"
+      width="16"
+    />
+     
+    <span
+      class="contacts-list__description"
+    >
+      <span
+        class="contacts-list__title"
+      >
+        
+        
+      
+      </span>
+       
+      <span
+        class="contacts-list__schedule"
+      >
+        с 9:00 - 18:00
+      </span>
+    </span>
+  </li>
+</ul>
+`;

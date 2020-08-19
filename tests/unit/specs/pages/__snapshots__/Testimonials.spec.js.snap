@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestimonialsPage fetch page data 1`] = `
+<main
+  class="testimonial-page"
+>
+  <thebreadcrumb-stub
+    items=""
+  />
+   
+  <blocktestimonials-stub
+    class="testimonial-page__featured"
+    istestimonialspage="true"
+    testimonials="[object Object],[object Object],[object Object],[object Object]"
+  />
+   
+  <blocktestimonialslist-stub
+    class="testimonial-page__list"
+    testimonials=""
+  />
+</main>
+`;

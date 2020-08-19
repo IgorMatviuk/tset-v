@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockBonusesVip create bonuses vip block 1`] = `
+<div
+  class="vip-bonuses"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="vip-bonuses__content"
+    >
+      <div
+        class="vip-bonuses__heading"
+      >
+        
+      </div>
+       
+      <div
+        class="vip-bonuses__item"
+      >
+        <div
+          class="vip-bonuses__icon-wrapper"
+        >
+          <svg-icon-stub
+            class="vip-bonuses__icon"
+            height="24"
+            name=""
+            width="24"
+          />
+        </div>
+         
+        <div
+          class="vip-bonuses__title"
+        />
+         
+        <div
+          class="vip-bonuses__text"
+        />
+      </div>
+      <div
+        class="vip-bonuses__item"
+      >
+        <div
+          class="vip-bonuses__icon-wrapper"
+        >
+          <svg-icon-stub
+            class="vip-bonuses__icon"
+            height="24"
+            name=""
+            width="24"
+          />
+        </div>
+         
+        <div
+          class="vip-bonuses__title"
+        />
+         
+        <div
+          class="vip-bonuses__text"
+        />
+      </div>
+    </div>
+  </bcontainer-stub>
+</div>
+`;

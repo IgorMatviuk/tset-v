@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog renders blog page 1`] = `
+<main
+  class="blog-page"
+>
+  <thebreadcrumb-stub
+    isfloat="true"
+    items="[object Object],[object Object]"
+  />
+   
+  <blockjumbotron-stub
+    class="blog-page__jumbotron"
+    content="[object Object]"
+  >
+    <div>
+      
+    </div>
+     
+    <div>
+      
+    </div>
+  </blockjumbotron-stub>
+   
+  <blockbloggrid-stub
+    posts=""
+  />
+</main>
+`;

@@ -1,0 +1,633 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockFeaturedPosts renders a slider 1`] = `
+<div
+  class="posts"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="section-header"
+    >
+      <div
+        class="section-header__title"
+      >
+        блог
+      </div>
+       
+      <div
+        class="section-header__navigation"
+      >
+        <div
+          class="posts__navigation"
+        >
+          <div
+            class="post__prev swiper-button-prev"
+          >
+            <svg-icon-stub
+              class="swiper-button-prev-icon"
+              height="9"
+              name="arrow"
+              width="30"
+            />
+          </div>
+           
+          <div
+            class="post__next swiper-button-next"
+          >
+            <svg-icon-stub
+              class="swiper-button-next-icon"
+              height="9"
+              name="arrow"
+              width="30"
+            />
+          </div>
+        </div>
+         
+        <nuxtlink-stub
+          class="more-link posts__more"
+          to="blog"
+        >
+          
+          Весь блог
+         
+          <svg-icon-stub
+            class="more-link__icon"
+            height="9"
+            name="caret"
+            width="11"
+          />
+        </nuxtlink-stub>
+      </div>
+    </div>
+     
+    <div
+      class="posts__slider-container"
+    >
+      <div
+        class="posts__slider swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper posts__slider-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide posts__slide"
+          >
+            <div
+              class="post-card"
+            >
+              <div
+                class="post-card__row"
+              >
+                <div
+                  class="post-card__preview"
+                >
+                  <div
+                    class="post-card__img-wrapper"
+                  >
+                    <div
+                      class="img-loader img-loader--negative"
+                    >
+                      <picture>
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__xxl.webp"
+                          media="(min-width: 1500px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__xxl.jpg"
+                          media="(min-width: 1500px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__xl.webp"
+                          media="(min-width: 1200px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__xl.jpg"
+                          media="(min-width: 1200px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__lg.webp"
+                          media="(min-width: 992px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__lg.jpg"
+                          media="(min-width: 992px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__sm.webp"
+                          type="image/webp"
+                        />
+                         
+                        <img
+                          alt="Совет в декрет! Как подобрать стильные летние платья и сарафан"
+                          class="post-card__img lazyload img-fade"
+                          data-src="/img/featured-posts/mock-1__sm.jpg"
+                          loading="lazy"
+                          src="/img/stub.png"
+                          title="Совет в декрет! Как подобрать стильные летние платья и сарафан"
+                        />
+                      </picture>
+                    </div>
+                     
+                    <div
+                      class="post-card__img-overlay"
+                    />
+                     
+                    <div
+                      class="post-card__button-group"
+                    >
+                      <a
+                        class="btn post-card__button is-blog btn-outline-light"
+                        href="/"
+                        target="_self"
+                      >
+                        
+            в блог
+          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                 
+                <article
+                  class="post-card__content"
+                >
+                  <div
+                    class="post-card__date"
+                  >
+                    17.07.2018
+                  </div>
+                   
+                  <h3
+                    class="post-card__title"
+                  >
+                    Совет в декрет! Как подобрать стильные летние платья и сарафан
+                  </h3>
+                   
+                  <p
+                    class="post-card__post"
+                  >
+                    В самое волнующее и прекрасное для всех девушек время хочется чувствовать себя очень комфортно и уютно. Чтобы за эти 9 месяцев можно было насладиться жизнью, ощущать и получать только крутые впечатления. А выглядеть хочется так же красиво и женственно. Ведь растянутые футболки и лосины с вытянутыми коленками – это только для дома. Ведь представляешь, лето, жара, солнце, а ты в красивом и удобном образе
+                  </p>
+                   
+                  <nuxtlink-stub
+                    class="more-link post-card__link more-link--is-black"
+                    to="some-article"
+                  >
+                    
+        buttons.readMore
+       
+                    <svg-icon-stub
+                      class="more-link__icon"
+                      height="9"
+                      name="caret"
+                      width="11"
+                    />
+                  </nuxtlink-stub>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide posts__slide"
+          >
+            <div
+              class="post-card"
+            >
+              <div
+                class="post-card__row"
+              >
+                <div
+                  class="post-card__preview"
+                >
+                  <div
+                    class="post-card__img-wrapper"
+                  >
+                    <div
+                      class="img-loader img-loader--negative"
+                    >
+                      <picture>
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__xxl.webp"
+                          media="(min-width: 1500px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__xxl.jpg"
+                          media="(min-width: 1500px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__xl.webp"
+                          media="(min-width: 1200px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__xl.jpg"
+                          media="(min-width: 1200px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__lg.webp"
+                          media="(min-width: 992px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__lg.jpg"
+                          media="(min-width: 992px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__sm.webp"
+                          type="image/webp"
+                        />
+                         
+                        <img
+                          alt="Самые трендовые принты лета 2019"
+                          class="post-card__img lazyload img-fade"
+                          data-src="/img/featured-posts/mock-2__sm.jpg"
+                          loading="lazy"
+                          src="/img/stub.png"
+                          title="Самые трендовые принты лета 2019"
+                        />
+                      </picture>
+                    </div>
+                     
+                    <div
+                      class="post-card__img-overlay"
+                    />
+                     
+                    <div
+                      class="post-card__button-group"
+                    >
+                      <a
+                        class="btn post-card__button is-blog btn-outline-light"
+                        href="/"
+                        target="_self"
+                      >
+                        
+            в блог
+          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                 
+                <article
+                  class="post-card__content"
+                >
+                  <div
+                    class="post-card__date"
+                  >
+                    12.07.2018
+                  </div>
+                   
+                  <h3
+                    class="post-card__title"
+                  >
+                    Самые трендовые принты лета 2019
+                  </h3>
+                   
+                  <p
+                    class="post-card__post"
+                  >
+                    Наступившее лето — отличный повод порадовать себя обновками. Летние платья, блузы, сарафаны никогда не бывают лишними в гардеробе, а вот выбрать их расцветки с учетом самых последних трендов в дизайне поможет эта статья с обзором модных принтов.  Одним из самых трендовых принтов весенне-летнего сезона 2019 стал принт «Tie Dye», название которого можно перевести как «завяжи и покрась». Оттенки самые разные — от
+                  </p>
+                   
+                  <nuxtlink-stub
+                    class="more-link post-card__link more-link--is-black"
+                    to="some-article"
+                  >
+                    
+        buttons.readMore
+       
+                    <svg-icon-stub
+                      class="more-link__icon"
+                      height="9"
+                      name="caret"
+                      width="11"
+                    />
+                  </nuxtlink-stub>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide posts__slide"
+          >
+            <div
+              class="post-card"
+            >
+              <div
+                class="post-card__row"
+              >
+                <div
+                  class="post-card__preview"
+                >
+                  <div
+                    class="post-card__img-wrapper"
+                  >
+                    <div
+                      class="img-loader img-loader--negative"
+                    >
+                      <picture>
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__xxl.webp"
+                          media="(min-width: 1500px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__xxl.jpg"
+                          media="(min-width: 1500px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__xl.webp"
+                          media="(min-width: 1200px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__xl.jpg"
+                          media="(min-width: 1200px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__lg.webp"
+                          media="(min-width: 992px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__lg.jpg"
+                          media="(min-width: 992px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-1__sm.webp"
+                          type="image/webp"
+                        />
+                         
+                        <img
+                          alt="Совет в декрет! Как подобрать стильные летние платья и сарафан"
+                          class="post-card__img lazyload img-fade"
+                          data-src="/img/featured-posts/mock-1__sm.jpg"
+                          loading="lazy"
+                          src="/img/stub.png"
+                          title="Совет в декрет! Как подобрать стильные летние платья и сарафан"
+                        />
+                      </picture>
+                    </div>
+                     
+                    <div
+                      class="post-card__img-overlay"
+                    />
+                     
+                    <div
+                      class="post-card__button-group"
+                    >
+                      <a
+                        class="btn post-card__button is-blog btn-outline-light"
+                        href="/"
+                        target="_self"
+                      >
+                        
+            в блог
+          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                 
+                <article
+                  class="post-card__content"
+                >
+                  <div
+                    class="post-card__date"
+                  >
+                    17.07.2018
+                  </div>
+                   
+                  <h3
+                    class="post-card__title"
+                  >
+                    Совет в декрет! Как подобрать стильные летние платья и сарафан
+                  </h3>
+                   
+                  <p
+                    class="post-card__post"
+                  >
+                    В самое волнующее и прекрасное для всех девушек время хочется чувствовать себя очень комфортно и уютно. Чтобы за эти 9 месяцев можно было насладиться жизнью, ощущать и получать только крутые впечатления. А выглядеть хочется так же красиво и женственно. Ведь растянутые футболки и лосины с вытянутыми коленками – это только для дома. Ведь представляешь, лето, жара, солнце, а ты в красивом и удобном образе
+                  </p>
+                   
+                  <nuxtlink-stub
+                    class="more-link post-card__link more-link--is-black"
+                    to="some-article"
+                  >
+                    
+        buttons.readMore
+       
+                    <svg-icon-stub
+                      class="more-link__icon"
+                      height="9"
+                      name="caret"
+                      width="11"
+                    />
+                  </nuxtlink-stub>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide posts__slide"
+          >
+            <div
+              class="post-card"
+            >
+              <div
+                class="post-card__row"
+              >
+                <div
+                  class="post-card__preview"
+                >
+                  <div
+                    class="post-card__img-wrapper"
+                  >
+                    <div
+                      class="img-loader img-loader--negative"
+                    >
+                      <picture>
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__xxl.webp"
+                          media="(min-width: 1500px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__xxl.jpg"
+                          media="(min-width: 1500px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__xl.webp"
+                          media="(min-width: 1200px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__xl.jpg"
+                          media="(min-width: 1200px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__lg.webp"
+                          media="(min-width: 992px)"
+                          srcset="/img/stub.png"
+                          type="image/webp"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__lg.jpg"
+                          media="(min-width: 992px)"
+                          srcset="/img/stub.png"
+                          type="image/jpeg"
+                        />
+                         
+                        <source
+                          data-srcset="/img/featured-posts/mock-2__sm.webp"
+                          type="image/webp"
+                        />
+                         
+                        <img
+                          alt="Самые трендовые принты лета 2019"
+                          class="post-card__img lazyload img-fade"
+                          data-src="/img/featured-posts/mock-2__sm.jpg"
+                          loading="lazy"
+                          src="/img/stub.png"
+                          title="Самые трендовые принты лета 2019"
+                        />
+                      </picture>
+                    </div>
+                     
+                    <div
+                      class="post-card__img-overlay"
+                    />
+                     
+                    <div
+                      class="post-card__button-group"
+                    >
+                      <a
+                        class="btn post-card__button is-blog btn-outline-light"
+                        href="/"
+                        target="_self"
+                      >
+                        
+            в блог
+          
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                 
+                <article
+                  class="post-card__content"
+                >
+                  <div
+                    class="post-card__date"
+                  >
+                    12.07.2018
+                  </div>
+                   
+                  <h3
+                    class="post-card__title"
+                  >
+                    Самые трендовые принты лета 2019
+                  </h3>
+                   
+                  <p
+                    class="post-card__post"
+                  >
+                    Наступившее лето — отличный повод порадовать себя обновками. Летние платья, блузы, сарафаны никогда не бывают лишними в гардеробе, а вот выбрать их расцветки с учетом самых последних трендов в дизайне поможет эта статья с обзором модных принтов.  Одним из самых трендовых принтов весенне-летнего сезона 2019 стал принт «Tie Dye», название которого можно перевести как «завяжи и покрась». Оттенки самые разные — от
+                  </p>
+                   
+                  <nuxtlink-stub
+                    class="more-link post-card__link more-link--is-black"
+                    to="some-article"
+                  >
+                    
+        buttons.readMore
+       
+                    <svg-icon-stub
+                      class="more-link__icon"
+                      height="9"
+                      name="caret"
+                      width="11"
+                    />
+                  </nuxtlink-stub>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="swiper-pagination posts__pagination"
+        />
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockSearchResultNotFound has expected structure 1`] = `
+<div
+  class="no-search-result"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <searchbox-stub
+      class="no-search-result__box"
+      initialvalue="Платья"
+      withlabel="true"
+    />
+     
+    <div
+      class="no-search-result__wrapper"
+    >
+      <svg-icon-stub
+        class="no-search-result__icon"
+        height="107"
+        name="dress"
+        width="107"
+      />
+       
+      <div
+        class="no-search-result__title"
+      >
+        
+        searchPage.notFoundTitle
+      
+      </div>
+       
+      <div
+        class="no-search-result__description"
+      >
+        
+        searchPage.notFoundDescription
+      
+      </div>
+       
+      <bbutton-stub
+        class="no-search-result__to-catalog"
+        tag="button"
+        target="_self"
+        to="default-category-slug"
+        type="button"
+        variant="primary"
+      >
+        
+        buttons.catalog
+      
+      </bbutton-stub>
+    </div>
+  </bcontainer-stub>
+</div>
+`;

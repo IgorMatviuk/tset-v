@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockBonusesFaqCollapse create bonuses vip block 1`] = `
+<div
+  class="faq-collapse"
+>
+  <div
+    class="faq-collapse__title"
+  >
+    
+    
+  
+  </div>
+   
+  <bcollapse-stub
+    accordion="collapseBonusesFaq"
+    tag="div"
+  >
+    <div
+      class="faq-collapse__content"
+    />
+  </bcollapse-stub>
+</div>
+`;

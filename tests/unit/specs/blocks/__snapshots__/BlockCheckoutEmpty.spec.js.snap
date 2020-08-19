@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockPostNavigation render privacy policy block 1`] = `
+<div
+  class="checkout-empty"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="checkout-empty__text"
+    >
+      cart.empty
+    </div>
+     
+    <a
+      class="btn btn-primary"
+      href="/"
+      target="_self"
+    >
+      cart.continue
+    </a>
+  </div>
+</div>
+`;

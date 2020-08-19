@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockProductPreview renders component itself 1`] = `
+<div
+  class="product-preview-card"
+>
+  <blockproductpreviewvideo-stub
+    video="[object Object]"
+  />
+</div>
+`;

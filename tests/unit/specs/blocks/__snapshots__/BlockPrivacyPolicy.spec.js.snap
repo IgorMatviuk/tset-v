@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockPostNavigation render privacy policy block 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="privacy-policy"
+    >
+      <h1
+        class="privacy-policy__title"
+      >
+        pages.privacyPolicy
+      </h1>
+       
+      <hr
+        class="privacy-policy__line"
+      />
+       
+      <div>
+        privacyPolicyPage
+      </div>
+    </div>
+  </div>
+</div>
+`;

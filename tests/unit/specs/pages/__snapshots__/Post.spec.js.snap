@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post renders post page 1`] = `
+<main
+  class="post-page"
+>
+  <thebreadcrumb-stub
+    items="[object Object]"
+  />
+   
+  <blockposthero-stub
+    content="[object Object]"
+  />
+   
+  <hr
+    class="post-page__delimiter"
+  />
+    
+  <blockpostrelatedslider-stub
+    posts=""
+  />
+   
+  <blockpostnavigation-stub
+    links="[object Object]"
+  />
+</main>
+`;

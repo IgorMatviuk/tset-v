@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockBonusesMemberRoad create bonuses vip block 1`] = `
+<div
+  class="member-road"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="member-road__content"
+    >
+      <div
+        class="member-road__title"
+      >
+        
+      </div>
+       
+      <div
+        class="member-road__item"
+      >
+        <div
+          class="member-road__icon-wrapper"
+        >
+          <svg-icon-stub
+            class="member-road__icon"
+            height="22"
+            name=""
+            width="22"
+          />
+        </div>
+         
+        <div
+          class="member-road__text"
+        >
+          
+        </div>
+      </div>
+      <div
+        class="member-road__item"
+      >
+        <div
+          class="member-road__icon-wrapper"
+        >
+          <svg-icon-stub
+            class="member-road__icon"
+            height="22"
+            name=""
+            width="22"
+          />
+        </div>
+         
+        <div
+          class="member-road__text"
+        >
+          
+        </div>
+      </div>
+      <div
+        class="member-road__item"
+      >
+        <div
+          class="member-road__icon-wrapper"
+        >
+          <svg-icon-stub
+            class="member-road__icon"
+            height="22"
+            name=""
+            width="22"
+          />
+        </div>
+         
+        <div
+          class="member-road__text"
+        >
+          
+        </div>
+      </div>
+    </div>
+  </bcontainer-stub>
+</div>
+`;

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockSearchResult has expected structure 1`] = `
+<div
+  class="search-result"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="search-result__header"
+    >
+      <searchbox-stub
+        class="search-result__box"
+        initialvalue="Платья"
+        withlabel="true"
+      />
+       
+      <pagepagination-stub
+        class="search-result__top-pagination"
+        currentpage="1"
+        totalrows="6"
+      />
+    </div>
+     
+    <div
+      class="search-result__row"
+    >
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="search-result__item"
+      >
+        <productpreview-stub
+          item="[object Object]"
+        />
+      </div>
+       
+      <pagepagination-stub
+        class="search-result__pagination"
+        currentpage="1"
+        totalrows="6"
+      />
+    </div>
+  </bcontainer-stub>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockBonusesContent create bonuses content block 1`] = `
+<div
+  class="bonuses-content"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="bonuses-content__container"
+    >
+      <p>
+        Some content
+      </p>
+    </div>
+  </bcontainer-stub>
+</div>
+`;

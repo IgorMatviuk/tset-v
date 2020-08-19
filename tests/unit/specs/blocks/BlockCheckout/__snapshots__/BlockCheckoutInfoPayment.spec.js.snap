@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockCheckoutInfoPayment using "abroad" delivery method 1`] = `
+<div
+  class="checkout-info"
+>
+  <div
+    class="checkout-info__title"
+  >
+    
+    checkoutPage.paymentMethod
+  
+  </div>
+   
+  <fieldset
+    class="form-group checkout-info__group"
+  >
+    <!---->
+    <div
+      class="bv-no-focus-ring"
+      role="group"
+      tabindex="-1"
+    >
+      <div
+        class="checkout-info__radio-group bv-no-focus-ring"
+        role="radiogroup"
+        tabindex="-1"
+      >
+        <div
+          class="checkout-info__radio checkout-info__radio--payment custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="payment-method"
+            type="radio"
+            value="cod"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.paymentMethods.cod
+      
+          </label>
+        </div>
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--payment custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="payment-method"
+            type="radio"
+            value="privat24"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.paymentMethods.privat
+      
+          </label>
+        </div>
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--payment custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="payment-method"
+            type="radio"
+            value="liqPay"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        Credit Card / Debit Card (LiqPay)
+      
+          </label>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`BlockCheckoutInfoPayment using non "abroad" delivery method 1`] = `
+<div
+  class="checkout-info"
+>
+  <div
+    class="checkout-info__title"
+  >
+    
+    checkoutPage.paymentMethod
+  
+  </div>
+   
+  <fieldset
+    class="form-group checkout-info__group"
+  >
+    <!---->
+    <div
+      class="bv-no-focus-ring"
+      role="group"
+      tabindex="-1"
+    >
+      <div
+        class="checkout-info__radio-group bv-no-focus-ring"
+        role="radiogroup"
+        tabindex="-1"
+      >
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--payment custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="payment-method"
+            type="radio"
+            value="liqPay"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        Credit Card / Debit Card (LiqPay)
+      
+          </label>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </fieldset>
+</div>
+`;

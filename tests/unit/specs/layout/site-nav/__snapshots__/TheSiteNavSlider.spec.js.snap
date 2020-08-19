@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheSiteNavSlider renders root items 1`] = `
+<ul
+  class="nav-slider nav-slider--root"
+>
+  <li
+    class="nav-slider__item nav-slider__item--has-children"
+  >
+    <span
+      class="nav-slider__link"
+    >
+      <span>
+        catalogPage.catalog
+      </span>
+      <svg-icon-stub
+        class="nav-slider__icon nav-slider__icon--next"
+      />
+    </span>
+    <ul
+      class="nav-slider nav-slider--inactive"
+    >
+      <li
+        class="nav-slider__item"
+      >
+        <span
+          class="nav-slider__btn-back"
+        >
+          <svg-icon-stub
+            class="nav-slider__icon nav-slider__icon--prev"
+          />
+          <span>
+            Назад
+          </span>
+        </span>
+      </li>
+      <li
+        class="nav-slider__item nav-slider__item--has-children"
+      >
+        <span
+          class="nav-slider__link"
+        >
+          <span>
+            Платья
+          </span>
+          <svg-icon-stub
+            class="nav-slider__icon nav-slider__icon--next"
+          />
+        </span>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Повседневные платья
+            </nuxtlink-stub>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Нарядные платья
+            </nuxtlink-stub>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Летние платья
+            </nuxtlink-stub>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="nav-slider__item"
+      >
+        <nuxtlink-stub
+          class="nav-slider__link"
+        >
+          Сарафаны
+        </nuxtlink-stub>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="nav-slider__item nav-slider__item--has-children"
+      >
+        <span
+          class="nav-slider__link"
+        >
+          <span>
+            Костюмы
+          </span>
+          <svg-icon-stub
+            class="nav-slider__icon nav-slider__icon--next"
+          />
+        </span>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Повседневные костюмы
+            </nuxtlink-stub>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Классические костюмы
+            </nuxtlink-stub>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Спортивные костюмы
+            </nuxtlink-stub>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Летние костюмы
+            </nuxtlink-stub>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Комбинезоны
+            </nuxtlink-stub>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="nav-slider__item"
+      >
+        <nuxtlink-stub
+          class="nav-slider__link"
+        >
+          Брюки и шорты
+        </nuxtlink-stub>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="nav-slider__item"
+      >
+        <nuxtlink-stub
+          class="nav-slider__link"
+        >
+          Юбки
+        </nuxtlink-stub>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="nav-slider__item"
+      >
+        <nuxtlink-stub
+          class="nav-slider__link"
+        >
+          Гольфы
+        </nuxtlink-stub>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="nav-slider__item"
+      >
+        <nuxtlink-stub
+          class="nav-slider__link"
+        >
+          Блузы и рубашки
+        </nuxtlink-stub>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="nav-slider__item"
+      >
+        <nuxtlink-stub
+          class="nav-slider__link"
+        >
+          Свитеры и джемперы
+        </nuxtlink-stub>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="nav-slider__item nav-slider__item--has-children"
+      >
+        <span
+          class="nav-slider__link"
+        >
+          <span>
+            Верхняя одежда
+          </span>
+          <svg-icon-stub
+            class="nav-slider__icon nav-slider__icon--next"
+          />
+        </span>
+        <ul
+          class="nav-slider nav-slider--inactive"
+        >
+          <li
+            class="nav-slider__item"
+          >
+            <span
+              class="nav-slider__btn-back"
+            >
+              <svg-icon-stub
+                class="nav-slider__icon nav-slider__icon--prev"
+              />
+              <span>
+                Назад
+              </span>
+            </span>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Пальто
+            </nuxtlink-stub>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Пиджаки
+            </nuxtlink-stub>
+          </li>
+          <li
+            class="nav-slider__item"
+          >
+            <nuxtlink-stub
+              class="nav-slider__link"
+            >
+              Тренчи
+            </nuxtlink-stub>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li
+    class="nav-slider__item"
+  >
+    <nuxtlink-stub
+      class="nav-slider__link"
+    >
+      О нас
+    </nuxtlink-stub>
+  </li>
+  <li
+    class="nav-slider__item"
+  >
+    <nuxtlink-stub
+      class="nav-slider__link"
+    >
+      Sale
+    </nuxtlink-stub>
+  </li>
+  <li
+    class="nav-slider__item"
+  >
+    <nuxtlink-stub
+      class="nav-slider__link"
+    >
+      АКЦИИ
+    </nuxtlink-stub>
+  </li>
+</ul>
+`;

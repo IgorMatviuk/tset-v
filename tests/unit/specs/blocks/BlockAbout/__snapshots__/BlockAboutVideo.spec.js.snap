@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockAboutVideo has expected structure: with video 1`] = `
+<div
+  class="about-video"
+>
+  <div
+    class="img-loader"
+  >
+    <client-only-stub>
+      <lazyvideo-stub
+        attrs="[object Object]"
+        pause-on-exit="true"
+        poster="/some-url"
+        src="/some-url"
+      />
+    </client-only-stub>
+  </div>
+</div>
+`;
+
+exports[`BlockAboutVideo has expected structure: without video 1`] = `
+<div
+  class="about-video"
+>
+  <div
+    class="img-loader"
+  >
+    <img
+      alt="some title"
+      class="about-video__item lazyload"
+      data-object-fit="cover"
+      data-object-position="center center"
+      data-src="/some-url"
+      height="100"
+      loading="lazy"
+      width="100"
+    />
+  </div>
+</div>
+`;

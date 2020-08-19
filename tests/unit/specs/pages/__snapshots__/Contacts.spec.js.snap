@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts page has expected structure 1`] = `
+<main
+  class="contacts-page"
+>
+  <thebreadcrumb-stub
+    isfloat="true"
+    items="[object Object],[object Object]"
+  />
+   
+  <blockcontacts-stub
+    class="contacts-page__block"
+  />
+</main>
+`;

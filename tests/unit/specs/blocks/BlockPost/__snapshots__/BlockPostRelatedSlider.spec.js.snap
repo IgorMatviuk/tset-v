@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockPostRelatedSlider render related posts slider 1`] = `
+<div
+  class="related-slider"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="related-slider__content"
+    >
+      <hr
+        class="related-slider__delimiter"
+      />
+       
+      <div
+        class="related-slider__heading"
+      >
+        
+        relatedPosts.title
+      
+      </div>
+       
+      <div
+        class="related-slider__navigation"
+      >
+        <div
+          class="swiper-button-prev"
+        >
+          <svg-icon-stub
+            class="swiper-button-prev-icon"
+            height="9"
+            name="arrow"
+            width="30"
+          />
+        </div>
+         
+        <div
+          class="swiper-button-next"
+        >
+          <svg-icon-stub
+            class="swiper-button-next-icon"
+            height="9"
+            name="arrow"
+            width="30"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="related-slider__slider swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="related-slider__slider-wrapper swiper-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="related-slider__slide swiper-slide"
+          >
+            <div
+              class="related-post"
+            >
+              <div
+                class="related-post__preview"
+              >
+                <div
+                  class="related-post__image-wrapper"
+                >
+                  <div
+                    class="img-loader"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/posts/post_xs.webp"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                        class="related-post__image lazyload"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/posts/post_xs.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <nuxtlink-stub
+                class="related-post__title"
+                to="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+              >
+                Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+              </nuxtlink-stub>
+               
+              <div
+                class="related-post__date"
+              >
+                
+    17 июля 2018
+  
+              </div>
+            </div>
+          </div>
+          <div
+            class="related-slider__slide swiper-slide"
+          >
+            <div
+              class="related-post"
+            >
+              <div
+                class="related-post__preview"
+              >
+                <div
+                  class="related-post__image-wrapper"
+                >
+                  <div
+                    class="img-loader"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/posts/post_xs.webp"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                        class="related-post__image lazyload"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/posts/post_xs.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <nuxtlink-stub
+                class="related-post__title"
+                to="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+              >
+                Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+              </nuxtlink-stub>
+               
+              <div
+                class="related-post__date"
+              >
+                
+    17 июля 2018
+  
+              </div>
+            </div>
+          </div>
+          <div
+            class="related-slider__slide swiper-slide"
+          >
+            <div
+              class="related-post"
+            >
+              <div
+                class="related-post__preview"
+              >
+                <div
+                  class="related-post__image-wrapper"
+                >
+                  <div
+                    class="img-loader"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/posts/post_xs.webp"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                        class="related-post__image lazyload"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/posts/post_xs.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <nuxtlink-stub
+                class="related-post__title"
+                to="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+              >
+                Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+              </nuxtlink-stub>
+               
+              <div
+                class="related-post__date"
+              >
+                
+    17 июля 2018
+  
+              </div>
+            </div>
+          </div>
+          <div
+            class="related-slider__slide swiper-slide"
+          >
+            <div
+              class="related-post"
+            >
+              <div
+                class="related-post__preview"
+              >
+                <div
+                  class="related-post__image-wrapper"
+                >
+                  <div
+                    class="img-loader"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/posts/post_xs.webp"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                        class="related-post__image lazyload"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/posts/post_xs.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <nuxtlink-stub
+                class="related-post__title"
+                to="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+              >
+                Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+              </nuxtlink-stub>
+               
+              <div
+                class="related-post__date"
+              >
+                
+    17 июля 2018
+  
+              </div>
+            </div>
+          </div>
+          <div
+            class="related-slider__slide swiper-slide"
+          >
+            <div
+              class="related-post"
+            >
+              <div
+                class="related-post__preview"
+              >
+                <div
+                  class="related-post__image-wrapper"
+                >
+                  <div
+                    class="img-loader"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/posts/post_xs.webp"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                        class="related-post__image lazyload"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/posts/post_xs.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <nuxtlink-stub
+                class="related-post__title"
+                to="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+              >
+                Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+              </nuxtlink-stub>
+               
+              <div
+                class="related-post__date"
+              >
+                
+    17 июля 2018
+  
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="swiper-pagination related-slider__pagination"
+        />
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

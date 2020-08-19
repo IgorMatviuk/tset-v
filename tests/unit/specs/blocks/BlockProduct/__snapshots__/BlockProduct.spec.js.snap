@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockProduct renders component without slider 1`] = `
+<div
+  class="product"
+>
+  <div
+    class="product__container"
+  >
+    <transition-stub
+      name="fade-slider"
+    >
+      <blockproductgrid-stub
+        class="product__slider"
+        previews="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      />
+    </transition-stub>
+     
+    <blockproductinfo-stub
+      class="product__info"
+      item="[object Object]"
+      links="[object Object]"
+      page="product"
+    />
+  </div>
+</div>
+`;
+
+exports[`BlockProduct renders component without slider 2`] = `
+<div
+  class="product"
+>
+  <div
+    class="product__container"
+  >
+    <transition-stub
+      name="fade-slider"
+    >
+      <blockproductslider-stub
+        class="product__slider"
+        previews="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      />
+    </transition-stub>
+     
+    <blockproductinfo-stub
+      class="product__info"
+      item="[object Object]"
+      links="[object Object]"
+      page="product"
+    />
+  </div>
+</div>
+`;

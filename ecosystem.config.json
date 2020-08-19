@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "name": "app",
+      "script": "yarn start",
+      "watch": true,
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": 80,
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "HOST": "0.0.0.0",
+        "PORT": 80,
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "fake-api",
+      "script": "yarn json-server"
+    }
+  ]
+}

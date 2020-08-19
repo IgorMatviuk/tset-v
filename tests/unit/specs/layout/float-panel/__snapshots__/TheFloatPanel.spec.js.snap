@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockProductFloatPanel has expected structure 1`] = `
+<div
+  class="float-panel"
+  isvisible="true"
+>
+  <div
+    class="float-panel__content"
+  >
+    <div
+      class="float-panel__header"
+    >
+      <button
+        class="float-panel__close"
+        type="button"
+      >
+        <svg-icon-stub
+          class="float-panel__icon"
+          height="13"
+          name="close"
+          width="13"
+        />
+      </button>
+       
+      <div
+        class="float-panel__name"
+      >
+        floatPanel.title
+      </div>
+    </div>
+     
+    <div
+      class="float-panel__table"
+    >
+      <table
+        aria-busy="false"
+        aria-colcount="5"
+        class="table b-table b-table-fixed"
+        role="table"
+      >
+        <!---->
+        <!---->
+        <thead
+          class=""
+          role="rowgroup"
+        >
+          <!---->
+          <tr
+            class=""
+            role="row"
+          >
+            <th
+              aria-colindex="1"
+              class=""
+              role="columnheader"
+              scope="col"
+            >
+              <div>
+                floatPanel.tHead.eu
+              </div>
+            </th>
+            <th
+              aria-colindex="2"
+              class=""
+              role="columnheader"
+              scope="col"
+            >
+              <div>
+                floatPanel.tHead.uk
+              </div>
+            </th>
+            <th
+              aria-colindex="3"
+              class=""
+              role="columnheader"
+              scope="col"
+            >
+              <div>
+                floatPanel.tHead.chest
+              </div>
+            </th>
+            <th
+              aria-colindex="4"
+              class=""
+              role="columnheader"
+              scope="col"
+            >
+              <div>
+                floatPanel.tHead.waist
+              </div>
+            </th>
+            <th
+              aria-colindex="5"
+              class=""
+              role="columnheader"
+              scope="col"
+            >
+              <div>
+                floatPanel.tHead.hips
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          role="rowgroup"
+        >
+          <!---->
+          <tr
+            class=""
+            role="row"
+          >
+            <td
+              aria-colindex="1"
+              class=""
+              role="cell"
+            >
+              XS
+            </td>
+            <td
+              aria-colindex="2"
+              class=""
+              role="cell"
+            >
+              40 - 42
+            </td>
+            <td
+              aria-colindex="3"
+              class=""
+              role="cell"
+            >
+              76 - 85
+            </td>
+            <td
+              aria-colindex="4"
+              class=""
+              role="cell"
+            >
+              58 - 64
+            </td>
+            <td
+              aria-colindex="5"
+              class=""
+              role="cell"
+            >
+              84 - 90
+            </td>
+          </tr>
+          <tr
+            class=""
+            role="row"
+          >
+            <td
+              aria-colindex="1"
+              class=""
+              role="cell"
+            >
+              S
+            </td>
+            <td
+              aria-colindex="2"
+              class=""
+              role="cell"
+            >
+              42 - 44
+            </td>
+            <td
+              aria-colindex="3"
+              class=""
+              role="cell"
+            >
+              86 - 92
+            </td>
+            <td
+              aria-colindex="4"
+              class=""
+              role="cell"
+            >
+              65 - 72
+            </td>
+            <td
+              aria-colindex="5"
+              class=""
+              role="cell"
+            >
+              91 - 97
+            </td>
+          </tr>
+          <tr
+            class=""
+            role="row"
+          >
+            <td
+              aria-colindex="1"
+              class=""
+              role="cell"
+            >
+              M
+            </td>
+            <td
+              aria-colindex="2"
+              class=""
+              role="cell"
+            >
+              46 - 48
+            </td>
+            <td
+              aria-colindex="3"
+              class=""
+              role="cell"
+            >
+              93 - 99
+            </td>
+            <td
+              aria-colindex="4"
+              class=""
+              role="cell"
+            >
+              73 - 82
+            </td>
+            <td
+              aria-colindex="5"
+              class=""
+              role="cell"
+            >
+              98 - 103
+            </td>
+          </tr>
+          <tr
+            class=""
+            role="row"
+          >
+            <td
+              aria-colindex="1"
+              class=""
+              role="cell"
+            >
+              L
+            </td>
+            <td
+              aria-colindex="2"
+              class=""
+              role="cell"
+            >
+              48 - 50
+            </td>
+            <td
+              aria-colindex="3"
+              class=""
+              role="cell"
+            >
+              100 - 108
+            </td>
+            <td
+              aria-colindex="4"
+              class=""
+              role="cell"
+            >
+              83 - 90
+            </td>
+            <td
+              aria-colindex="5"
+              class=""
+              role="cell"
+            >
+              104 - 110
+            </td>
+          </tr>
+          <tr
+            class=""
+            role="row"
+          >
+            <td
+              aria-colindex="1"
+              class=""
+              role="cell"
+            >
+              XL
+            </td>
+            <td
+              aria-colindex="2"
+              class=""
+              role="cell"
+            >
+              50 - 52
+            </td>
+            <td
+              aria-colindex="3"
+              class=""
+              role="cell"
+            >
+              109 - 115
+            </td>
+            <td
+              aria-colindex="4"
+              class=""
+              role="cell"
+            >
+              91 - 102
+            </td>
+            <td
+              aria-colindex="5"
+              class=""
+              role="cell"
+            >
+              111 - 118
+            </td>
+          </tr>
+          <!---->
+          <!---->
+        </tbody>
+        <!---->
+      </table>
+    </div>
+     
+    <div
+      class="float-panel__title"
+    >
+      floatPanel.sizeTitle
+    </div>
+     
+    <div
+      class="float-panel__description"
+    >
+      <div
+        class="float-panel__model"
+      >
+        <picture>
+          <source
+            data-srcset="/img/size-table/model_xl.webp"
+            media="(min-width: 1200px)"
+            srcset="/img/stub.png"
+            type="image/webp"
+          />
+           
+          <source
+            data-srcset="/img/size-table/model_xl.png"
+            media="(min-width: 1200px)"
+            srcset="/img/stub.png"
+          />
+           
+          <source
+            data-srcset="/img/size-table/model.webp"
+            srcset="/img/stub.png"
+            type="image/webp"
+          />
+           
+          <img
+            alt="size table model"
+            class="float-panel__image lazyload"
+            data-src="/img/size-table/model.png"
+            height="100"
+            loading="lazy"
+            src="/img/stub.png"
+            title="size table model"
+            width="100"
+          />
+        </picture>
+      </div>
+       
+      <ul
+        class="float-panel__list"
+      >
+        <li
+          class="float-panel__list-item"
+        >
+          <span
+            class="float-panel__number"
+          >
+            1
+          </span>
+           
+          <span
+            class="float-panel__info"
+          >
+            floatPanel.chestGirth
+          </span>
+        </li>
+         
+        <li
+          class="float-panel__list-item"
+        >
+          <span
+            class="float-panel__number"
+          >
+            2
+          </span>
+           
+          <span
+            class="float-panel__info"
+          >
+            floatPanel.waistCircumference
+          </span>
+        </li>
+         
+        <li
+          class="float-panel__list-item"
+        >
+          <span
+            class="float-panel__number"
+          >
+            3
+          </span>
+           
+          <span
+            class="float-panel__info"
+          >
+            floatPanel.hipGirth
+          </span>
+        </li>
+         
+        <li
+          class="float-panel__list-item"
+        >
+          <span
+            class="float-panel__number"
+          >
+            4
+          </span>
+           
+          <span
+            class="float-panel__info"
+          >
+            floatPanel.lengthProduct
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockAboutBlockquote has expected structure 1`] = `
+<div
+  class="blockquote-text"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="blockquote-text__description"
+    >
+      <h1>
+        BlockAboutBlockquote content
+      </h1>
+    </div>
+  </bcontainer-stub>
+</div>
+`;

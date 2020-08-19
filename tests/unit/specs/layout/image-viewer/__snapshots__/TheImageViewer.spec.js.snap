@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheImageViewer create image gallery 1`] = `
+<transition-stub
+  name="fade"
+>
+  <div
+    class="image-viewer"
+  >
+    <div
+      class="image-viewer__slider swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal"
+    >
+      <div
+        class="swiper-wrapper image-viewer__slider-wrapper"
+        style="webkit-transition-duration: 0ms; transition-duration: 0ms;"
+      >
+        <div
+          class="swiper-slide image-viewer__slide"
+        >
+          <div
+            class="image-viewer__image-wrapper"
+          >
+            <picture>
+              <source
+                data-srcset="/img/product/product__medium-1.webp"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <source
+                data-srcset="/img/product/product__medium-1.jpg"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/jpeg"
+              />
+               
+              <source
+                data-srcset="/img/product/product__large-1.webp"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <img
+                class="image-viewer__image lazyload"
+                data-object-fit="cover"
+                data-src="/img/product/product__large-1.jpg"
+                loading="lazy"
+                src="/img/stub.png"
+                title="some title"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="swiper-slide image-viewer__slide"
+        >
+          <div
+            class="image-viewer__image-wrapper"
+          >
+            <picture>
+              <source
+                data-srcset="/img/product/product__medium-2.webp"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <source
+                data-srcset="/img/product/product__medium-2.jpg"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/jpeg"
+              />
+               
+              <source
+                data-srcset="/img/product/product__large-2.webp"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <img
+                class="image-viewer__image lazyload"
+                data-object-fit="cover"
+                data-src="/img/product/product__large-2.jpg"
+                loading="lazy"
+                src="/img/stub.png"
+                title="some title"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="swiper-slide image-viewer__slide"
+        >
+          <div
+            class="image-viewer__image-wrapper"
+          >
+            <picture>
+              <source
+                data-srcset="/img/product/product__medium-3.webp"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <source
+                data-srcset="/img/product/product__medium-3.jpg"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/jpeg"
+              />
+               
+              <source
+                data-srcset="/img/product/product__large-3.webp"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <img
+                class="image-viewer__image lazyload"
+                data-object-fit="cover"
+                data-src="/img/product/product__large-3.jpg"
+                loading="lazy"
+                src="/img/stub.png"
+                title="some title"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="swiper-slide image-viewer__slide"
+        >
+          <div
+            class="image-viewer__image-wrapper"
+          >
+            <picture>
+              <source
+                data-srcset="/img/product/product__medium-4.webp"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <source
+                data-srcset="/img/product/product__medium-4.jpg"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/jpeg"
+              />
+               
+              <source
+                data-srcset="/img/product/product__large-4.webp"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <img
+                class="image-viewer__image lazyload"
+                data-object-fit="cover"
+                data-src="/img/product/product__large-4.jpg"
+                loading="lazy"
+                src="/img/stub.png"
+                title="some title"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="swiper-slide image-viewer__slide"
+        >
+          <div
+            class="image-viewer__image-wrapper"
+          >
+            <picture>
+              <source
+                data-srcset="/img/product/product__medium-1.webp"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <source
+                data-srcset="/img/product/product__medium-1.jpg"
+                media="(max-width: 1439px)"
+                srcset="/img/stub.png"
+                type="image/jpeg"
+              />
+               
+              <source
+                data-srcset="/img/product/product__large-1.webp"
+                srcset="/img/stub.png"
+                type="image/webp"
+              />
+               
+              <img
+                class="image-viewer__image lazyload"
+                data-object-fit="cover"
+                data-src="/img/product/product__large-1.jpg"
+                loading="lazy"
+                src="/img/stub.png"
+                title="some title"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+       
+      <sliderarrow-stub
+        arrowtype="prev"
+        class="image-viewer__prev"
+      />
+       
+      <sliderarrow-stub
+        arrowtype="next"
+        class="image-viewer__next"
+      />
+       
+      <button
+        class="image-viewer__close"
+        type="button"
+      >
+        <svg-icon-stub
+          class="image-viewer__icon"
+          height="12"
+          name="close"
+          width="12"
+        />
+      </button>
+      <span
+        aria-atomic="true"
+        aria-live="assertive"
+        class="swiper-notification"
+      />
+    </div>
+  </div>
+</transition-stub>
+`;

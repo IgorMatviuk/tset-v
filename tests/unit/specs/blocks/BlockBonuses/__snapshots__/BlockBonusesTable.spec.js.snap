@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockBonusesTable create bonuses vip block 1`] = `
+<div
+  class="bonuses-table"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="bonuses-table__content"
+    >
+      <btable-stub
+        apiurl=""
+        currentpage="1"
+        emptyfilteredtext="There are no records matching your request"
+        emptytext="There are no records to show"
+        fields="[object Object],[object Object]"
+        filterdebounce="0"
+        items="[object Object],[object Object],[object Object]"
+        labelsortasc="Click to sort Ascending"
+        labelsortclear="Click to clear sorting"
+        labelsortdesc="Click to sort Descending"
+        perpage="0"
+        selectedvariant="active"
+        selectmode="multi"
+        sortby=""
+        sortcompareoptions="[object Object]"
+        sortdirection="asc"
+        value=""
+      />
+    </div>
+  </bcontainer-stub>
+</div>
+`;

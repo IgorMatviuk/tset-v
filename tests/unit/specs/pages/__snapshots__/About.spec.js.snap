@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page has expected structure 1`] = `
+<main
+  class="about-page"
+>
+  <thebreadcrumb-stub
+    isfloat="true"
+    items="[object Object],[object Object]"
+  />
+   
+  <blockjumbotron-stub
+    class="about-page__presentation"
+    content="[object Object]"
+  >
+    <div>
+      aboutPage.title
+    </div>
+     
+    <div>
+      aboutPage.subtitle
+    </div>
+  </blockjumbotron-stub>
+   
+  <blockaboutcontent-stub
+    class="about-page__who-we"
+    content="[object Object]"
+    direction="right"
+    isfirst="true"
+    type="overlay"
+  />
+   
+  <blockblockquote-stub
+    class="about-page__blockquote"
+    content="Мир моды соткан из историй.<br><b>Теперь мы творим свою собственную,</b> и приглашаем Вас <b>рассказать эту историю вместе с нами.</b>"
+  />
+   
+  <blockaboutcontent-stub
+    class="about-page__production"
+    content="[object Object]"
+    direction="left"
+    type="overlay"
+  />
+   
+  <blockourfeatures-stub
+    class="about-page__features"
+    features="[object Object],[object Object],[object Object],[object Object]"
+  />
+   
+  <blockaboutcontent-stub
+    class="about-page__history"
+    content="[object Object]"
+    direction="right"
+    type="background"
+  />
+   
+  <blockaboutcontent-stub
+    class="about-page__team"
+    content="[object Object]"
+    direction="left"
+    type="stretch"
+  />
+</main>
+`;

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockCheckoutInfo Validation rules using "abroad" delivery method 1`] = `
+Object {
+  "formData": Object {
+    "contactInfo": Object {
+      "comment": Object {
+        "onlyText": [Function],
+      },
+      "email": Object {
+        "email": [Function],
+        "required": [Function],
+      },
+      "firstName": Object {
+        "minLength": [Function],
+        "onlyLetters": [Function],
+        "required": [Function],
+      },
+      "lastName": Object {
+        "minLength": [Function],
+        "onlyLetters": [Function],
+        "required": [Function],
+      },
+      "phone": Object {
+        "phone": [Function],
+        "required": [Function],
+      },
+    },
+    "deliveryInfo": Object {
+      "deliveryAddress": Object {},
+      "deliveryCity": Object {},
+      "deliveryCountry": Object {
+        "required": [Function],
+      },
+      "deliveryMethod": Object {
+        "required": [Function],
+      },
+      "deliveryOffice": Object {},
+    },
+    "paymentInfo": Object {
+      "paymentMethod": Object {
+        "required": [Function],
+      },
+    },
+  },
+}
+`;
+
+exports[`BlockCheckoutInfo Validation rules using "local" delivery method 1`] = `
+Object {
+  "formData": Object {
+    "contactInfo": Object {
+      "comment": Object {
+        "onlyText": [Function],
+      },
+      "email": Object {
+        "email": [Function],
+        "required": [Function],
+      },
+      "firstName": Object {
+        "minLength": [Function],
+        "onlyLetters": [Function],
+        "required": [Function],
+      },
+      "lastName": Object {
+        "minLength": [Function],
+        "onlyLetters": [Function],
+        "required": [Function],
+      },
+      "phone": Object {
+        "phone": [Function],
+        "required": [Function],
+      },
+    },
+    "deliveryInfo": Object {
+      "deliveryAddress": Object {
+        "required": [Function],
+      },
+      "deliveryCountry": Object {},
+      "deliveryMethod": Object {
+        "required": [Function],
+      },
+      "deliveryOffice": Object {},
+      "deliveryRegion": Object {
+        "required": [Function],
+      },
+      "deliveryState": Object {
+        "required": [Function],
+      },
+    },
+    "paymentInfo": Object {
+      "paymentMethod": Object {
+        "required": [Function],
+      },
+    },
+  },
+}
+`;
+
+exports[`BlockCheckoutInfo Validation rules using "novaposhta" delivery method 1`] = `
+Object {
+  "formData": Object {
+    "contactInfo": Object {
+      "comment": Object {
+        "onlyText": [Function],
+      },
+      "email": Object {
+        "email": [Function],
+        "required": [Function],
+      },
+      "firstName": Object {
+        "minLength": [Function],
+        "onlyLetters": [Function],
+        "required": [Function],
+      },
+      "lastName": Object {
+        "minLength": [Function],
+        "onlyLetters": [Function],
+        "required": [Function],
+      },
+      "phone": Object {
+        "phone": [Function],
+        "required": [Function],
+      },
+    },
+    "deliveryInfo": Object {
+      "deliveryAddress": Object {},
+      "deliveryCountry": Object {},
+      "deliveryMethod": Object {
+        "required": [Function],
+      },
+      "deliveryOffice": Object {
+        "required": [Function],
+      },
+      "deliveryRegion": Object {
+        "required": [Function],
+      },
+      "deliveryState": Object {
+        "required": [Function],
+      },
+    },
+    "paymentInfo": Object {
+      "paymentMethod": Object {
+        "required": [Function],
+      },
+    },
+  },
+}
+`;

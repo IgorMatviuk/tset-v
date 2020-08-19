@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuantityCounter Structure has expected structure 1`] = `
+<div
+  class="counter"
+>
+  <button
+    class="counter__toggle counter__toggle--decrease"
+    type="button"
+  >
+    <svg-icon-stub
+      class="counter__icon"
+      height="1"
+      name="minus"
+      width="17"
+    />
+  </button>
+   
+  <input
+    class="counter__input"
+    type="text"
+  />
+   
+  <button
+    class="counter__toggle counter__toggle--increase"
+    type="button"
+  >
+    <svg-icon-stub
+      class="counter__icon"
+      height="17"
+      name="plus"
+      width="17"
+    />
+  </button>
+</div>
+`;
+
+exports[`QuantityCounter Structure has expected structure 2`] = `1`;
+
+exports[`QuantityCounter Structure has expected structure 3`] = `
+<div
+  class="counter"
+>
+  <button
+    class="counter__toggle counter__toggle--decrease"
+    type="button"
+  >
+    <svg-icon-stub
+      class="counter__icon"
+      height="1"
+      name="minus"
+      width="17"
+    />
+  </button>
+   
+  <input
+    class="counter__input"
+    type="text"
+  />
+   
+  <button
+    class="counter__toggle counter__toggle--increase"
+    type="button"
+  >
+    <svg-icon-stub
+      class="counter__icon"
+      height="17"
+      name="plus"
+      width="17"
+    />
+  </button>
+</div>
+`;
+
+exports[`QuantityCounter Structure has expected structure 4`] = `2`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search has expected structure 1`] = `
+<main
+  class="search-page"
+>
+  <thebreadcrumb-stub
+    items=""
+  />
+   
+  <div
+    class="search-page__search-result"
+  >
+    <!---->
+     
+    <transition-stub
+      mode="out-in"
+      name="fade"
+    >
+      <blocksearchresult-stub
+        products="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        query="Платья"
+      />
+    </transition-stub>
+  </div>
+</main>
+`;

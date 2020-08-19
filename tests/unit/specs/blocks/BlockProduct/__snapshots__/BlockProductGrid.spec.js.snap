@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockProductGrid renders grid container 1`] = `
+<div
+  class="product-grid"
+>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+</div>
+`;
+
+exports[`BlockProductGrid renders grid container without video 1`] = `
+<div
+  class="product-grid"
+>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+  <div
+    class="product-grid__item"
+  >
+    <blockproductpreview-stub
+      item="[object Object]"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockContacts renders contacts block 1`] = `
+<div
+  class="contacts"
+>
+  <div
+    class="contacts__background-wrapper"
+  >
+    <div
+      class="contacts__color-background"
+    />
+     
+    <picture>
+      <source
+        data-srcset="/img/contacts-page/contacts_background__xxl.webp"
+        media="(min-width: 1500px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/contacts-page/contacts_background__xxl.jpg"
+        media="(min-width: 1500px)"
+        srcset="/img/stub.png"
+        type="image/jpeg"
+      />
+       
+      <source
+        data-srcset="/img/contacts-page/contacts_background__xl.webp"
+        media="(min-width: 1200px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/contacts-page/contacts_background__xl.jpg"
+        media="(min-width: 1200px)"
+        srcset="/img/stub.png"
+        type="image/jpeg"
+      />
+       
+      <source
+        data-srcset="/img/contacts-page/contacts_background__md.webp"
+        media="(min-width: 768px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/contacts-page/contacts_background__md.jpg"
+        media="(min-width: 768px)"
+        srcset="/img/stub.png"
+        type="image/jpeg"
+      />
+       
+      <img
+        alt="contacts page bockground"
+        class="contacts__background-image lazyload"
+        data-object-fit="cover"
+        data-object-position="top"
+        data-src=""
+        height="100"
+        loading="lazy"
+        src="/img/stub.png"
+        width="100"
+      />
+    </picture>
+  </div>
+   
+  <bcontainer-stub
+    class="contacts__container"
+    tag="div"
+  >
+    <div
+      class="contacts__info-background"
+    />
+     
+    <h1
+      class="contacts__title"
+    >
+      
+    </h1>
+     
+    <blockcontactslist-stub
+      class="contacts__list"
+    />
+     
+    <blockcontactsform-stub
+      class="contacts__form"
+    />
+  </bcontainer-stub>
+</div>
+`;

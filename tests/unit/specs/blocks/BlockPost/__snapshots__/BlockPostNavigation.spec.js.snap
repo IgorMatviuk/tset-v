@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockPostNavigation render post navigation 1`] = `
+<div
+  class="post-navigation"
+>
+  <div
+    class="container"
+  >
+    <hr
+      class="post-navigation__delimiter"
+    />
+     
+    <div
+      class="post-navigation__content"
+    >
+      <nuxtlink-stub
+        class="post-navigation__link post-navigation__link--prev"
+        to="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+      >
+        <svg-icon-stub
+          class="post-navigation__icon post-navigation__icon--prev"
+          height="9"
+          name="arrow"
+          width="30"
+        />
+         
+        <span
+          class="post-navigation__link-text"
+        >
+          
+          Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+        
+        </span>
+      </nuxtlink-stub>
+       
+      <nuxtlink-stub
+        class="post-navigation__link post-navigation__link--next"
+        to="blog/made-in-ukraine-massmarket-protiv-ukrainskogo-brenda-chto-vybrat"
+      >
+        <span
+          class="post-navigation__link-text"
+        >
+          
+          Made in Ukraine! Массмаркет против украинского бренда, что выбрать?
+        
+        </span>
+         
+        <svg-icon-stub
+          class="post-navigation__icon post-navigation__icon--next"
+          height="9"
+          name="arrow"
+          width="30"
+        />
+      </nuxtlink-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BlockPostNavigation render post navigation without next link 1`] = `
+<div
+  class="post-navigation"
+>
+  <div
+    class="container"
+  >
+    <hr
+      class="post-navigation__delimiter"
+    />
+     
+    <div
+      class="post-navigation__content"
+    >
+      <nuxtlink-stub
+        class="post-navigation__link post-navigation__link--prev"
+        to="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+      >
+        <svg-icon-stub
+          class="post-navigation__icon post-navigation__icon--prev"
+          height="9"
+          name="arrow"
+          width="30"
+        />
+         
+        <span
+          class="post-navigation__link-text"
+        >
+          
+          Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+        
+        </span>
+      </nuxtlink-stub>
+       
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BlockPostNavigation render post navigation without previous link 1`] = `
+<div
+  class="post-navigation"
+>
+  <div
+    class="container"
+  >
+    <hr
+      class="post-navigation__delimiter"
+    />
+     
+    <div
+      class="post-navigation__content"
+    >
+      <!---->
+       
+      <nuxtlink-stub
+        class="post-navigation__link post-navigation__link--next"
+        to="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+      >
+        <span
+          class="post-navigation__link-text"
+        >
+          
+          Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+        
+        </span>
+         
+        <svg-icon-stub
+          class="post-navigation__icon post-navigation__icon--next"
+          height="9"
+          name="arrow"
+          width="30"
+        />
+      </nuxtlink-stub>
+    </div>
+  </div>
+</div>
+`;

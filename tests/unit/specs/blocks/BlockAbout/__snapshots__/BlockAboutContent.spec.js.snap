@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockAboutContent has expected structure: type: background, direction: right 1`] = `
+<div
+  class="about-content about-content--is-right about-content--background"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="about-content__row"
+    >
+      <div
+        class="about-content__video-wrapper"
+      >
+        <div
+          class="about-content__overlay"
+        />
+         
+        <blockaboutvideo-stub
+          class="about-content__video"
+          content="[object Object]"
+        />
+      </div>
+       
+      <blockabouttext-stub
+        class="about-content__text"
+        content="[object Object]"
+      />
+    </div>
+  </bcontainer-stub>
+</div>
+`;
+
+exports[`BlockAboutContent has expected structure: type: overlay, direction: left 1`] = `
+<div
+  class="about-content about-content--is-left about-content--overlay"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="about-content__row"
+    >
+      <div
+        class="about-content__video-wrapper"
+      >
+        <div
+          class="about-content__overlay"
+        />
+         
+        <blockaboutvideo-stub
+          class="about-content__video"
+          content="[object Object]"
+        />
+      </div>
+       
+      <blockabouttext-stub
+        class="about-content__text"
+        content="[object Object]"
+      />
+    </div>
+  </bcontainer-stub>
+</div>
+`;
+
+exports[`BlockAboutContent has expected structure: type: overlay, direction: right, isFirst: true 1`] = `
+<div
+  class="about-content about-content--is-right about-content--overlay about-content--is-first"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="about-content__row"
+    >
+      <div
+        class="about-content__video-wrapper"
+      >
+        <div
+          class="about-content__overlay"
+        />
+         
+        <blockaboutvideo-stub
+          class="about-content__video"
+          content="[object Object]"
+        />
+      </div>
+       
+      <blockabouttext-stub
+        class="about-content__text"
+        content="[object Object]"
+      />
+    </div>
+  </bcontainer-stub>
+</div>
+`;
+
+exports[`BlockAboutContent has expected structure: type: stretch, direction: left 1`] = `
+<div
+  class="about-content about-content--is-left about-content--stretch"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="about-content__row"
+    >
+      <div
+        class="about-content__video-wrapper"
+      >
+        <div
+          class="about-content__overlay"
+        />
+         
+        <blockaboutvideo-stub
+          class="about-content__video"
+          content="[object Object]"
+        />
+      </div>
+       
+      <blockabouttext-stub
+        class="about-content__text"
+        content="[object Object]"
+      />
+    </div>
+  </bcontainer-stub>
+</div>
+`;

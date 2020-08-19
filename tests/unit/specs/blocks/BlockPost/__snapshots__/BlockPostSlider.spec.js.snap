@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockPostSlider render posts slider 1`] = `
+<div
+  class="post-slider"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="post-slider__content"
+    >
+      <div
+        class="post-slider__slider swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper post-slider__slider-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide post-slider__slide"
+          >
+            <div
+              class="post-slider-item"
+            >
+              <div
+                class="post-image"
+              >
+                <div
+                  class="img-loader"
+                >
+                  <picture>
+                    <source
+                      data-srcset="/img/posts/slider_preview_xl.webp"
+                      media="(min-width: 1500px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xl.jpg"
+                      media="(min-width: 1500px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_lg.webp"
+                      media="(min-width: 1200px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_lg.jpg"
+                      media="(min-width: 1200px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_sm.webp"
+                      media="(min-width: 992px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_sm.jpg"
+                      media="(min-width: 992px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xs.webp"
+                      media="(min-width: 768px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xs.jpg"
+                      media="(min-width: 768px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_md.webp"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <img
+                      alt="image title"
+                      class="post-image__picture lazyload"
+                      data-object-fit="cover"
+                      data-object-position="center"
+                      data-src="/img/posts/slider_preview_md.jpg"
+                      loading="lazy"
+                      src="/img/stub.png"
+                      title="image title"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide post-slider__slide"
+          >
+            <div
+              class="post-slider-item"
+            >
+              <div
+                class="post-image"
+              >
+                <div
+                  class="img-loader"
+                >
+                  <picture>
+                    <source
+                      data-srcset="/img/posts/slider_preview_xl.webp"
+                      media="(min-width: 1500px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xl.jpg"
+                      media="(min-width: 1500px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_lg.webp"
+                      media="(min-width: 1200px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_lg.jpg"
+                      media="(min-width: 1200px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_sm.webp"
+                      media="(min-width: 992px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_sm.jpg"
+                      media="(min-width: 992px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xs.webp"
+                      media="(min-width: 768px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xs.jpg"
+                      media="(min-width: 768px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_md.webp"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <img
+                      alt="image title"
+                      class="post-image__picture lazyload"
+                      data-object-fit="cover"
+                      data-object-position="center"
+                      data-src="/img/posts/slider_preview_md.jpg"
+                      loading="lazy"
+                      src="/img/stub.png"
+                      title="image title"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide post-slider__slide"
+          >
+            <div
+              class="post-slider-item"
+            >
+              <div
+                class="post-image"
+              >
+                <div
+                  class="img-loader"
+                >
+                  <picture>
+                    <source
+                      data-srcset="/img/posts/slider_preview_xl.webp"
+                      media="(min-width: 1500px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xl.jpg"
+                      media="(min-width: 1500px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_lg.webp"
+                      media="(min-width: 1200px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_lg.jpg"
+                      media="(min-width: 1200px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_sm.webp"
+                      media="(min-width: 992px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_sm.jpg"
+                      media="(min-width: 992px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xs.webp"
+                      media="(min-width: 768px)"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_xs.jpg"
+                      media="(min-width: 768px)"
+                      srcset="/img/stub.png"
+                    />
+                     
+                    <source
+                      data-srcset="/img/posts/slider_preview_md.webp"
+                      srcset="/img/stub.png"
+                      type="image/webp"
+                    />
+                     
+                    <img
+                      alt="image title"
+                      class="post-image__picture lazyload"
+                      data-object-fit="cover"
+                      data-object-position="center"
+                      data-src="/img/posts/slider_preview_md.jpg"
+                      loading="lazy"
+                      src="/img/stub.png"
+                      title="image title"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="swiper-pagination post-slider__pagination"
+        />
+         
+        <div
+          class="post-slider__navigation"
+        >
+          <div
+            class="swiper-button-prev"
+          >
+            <svg-icon-stub
+              class="swiper-button-prev-icon"
+              height="9"
+              name="arrow"
+              width="30"
+            />
+          </div>
+           
+          <div
+            class="swiper-button-next"
+          >
+            <svg-icon-stub
+              class="swiper-button-next-icon"
+              height="9"
+              name="arrow"
+              width="30"
+            />
+          </div>
+        </div>
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

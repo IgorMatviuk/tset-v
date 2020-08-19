@@ -1,0 +1,167 @@
+// Images
+$preview-aspect-ratio: calc((3 / 2) * 100%);
+
+// Options
+// $enable-shadows: true;
+
+// Colors
+$body-color: #000;
+
+$primary: #9a0034;
+$primary-light-1: #d7969e;
+$primary-light-2: #e8d8d9;
+$primary-light-3: #f2e6e6;
+$primary-light-4: #dabec7;
+$primary-light-5: #dbbebe;
+$primary-dark-1: #611b33;
+
+$light: #fff;
+$light-1: #e7e7e7;
+$light-2: #fafafa;
+$light-3: #f3f3f3;
+$light-4: #e0e0e0;
+
+$gray: #dedcdc;
+$gray-dark-1: #a8a8a8;
+$gray-dark-2: #7e7e7e;
+$gray-light-1: #c4c4c4;
+$gray-light-2: #f7f7f7;
+$gray-light-3: #eaeceb;
+
+$black: #000;
+$black-light-1: rgba(0, 0, 0, 0.4);
+$black-light-2: rgba(0, 0, 0, 0.2);
+
+$text-color: #565656;
+$input-color: #3e3e3e;
+
+$dark: $body-color;
+
+// Fonts
+$font-family-cg: 'Cormorant Garamond';
+$font-family-base: 'Cera Pro';
+
+// Buttons
+$input-btn-padding-y: 0;
+$btn-padding-y-sm: 0;
+$input-btn-font-size: 14px;
+$btn-line-height: 38px;
+
+// Links
+$link-color: $black;
+$link-hover-decoration: none;
+$link-hover-color: $primary;
+
+// Checkbox
+$custom-control-gutter: 0.8rem;
+$custom-control-cursor: pointer;
+$custom-control-indicator-size: 1rem;
+$custom-control-indicator-bg: transparent;
+$custom-control-indicator-checked-bg: transparent;
+$custom-control-indicator-checked-border-color: #d7969e;
+$custom-control-indicator-box-shadow: 0 0 0 0.2rem rgba(#d7969e, 0.5);
+$custom-control-indicator-focus-box-shadow: 0 0 0 0.2rem rgba(#d7969e, 0.5);
+$custom-control-indicator-focus-border-color: #d7969e;
+$custom-control-indicator-active-bg: rgba(#d7969e, 0);
+$custom-control-indicator-active-border-color: #d7969e;
+$custom-control-indicator-border-color: #dedcdc;
+$custom-checkbox-indicator-border-radius: 2px;
+$custom-control-indicator-bg-size: 8px 8px;
+$custom-checkbox-indicator-icon-checked: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgOCA3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik02Ljk0MjA1IDBMOCAxLjA1Nzk5TDMuMDUxMDQgNi4wMDY5NUwwIDIuOTU1OThMMS4wNTc5NSAxLjg5Nzk5TDMuMDUxMDQgMy44OTEwMUw2Ljk0MjA1IDBaIiBmaWxsPSIjRDc5NjlFIi8+PC9zdmc+');
+
+// Radio
+$custom-radio-indicator-icon-checked: url("data:image/svg+xml,%3Csvg width='11' height='11' viewBox='0 0 11 11' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='5.5' cy='5.5' r='5.5' fill='%239A0034'/%3E%3C/svg%3E");
+
+// Input fields
+$input-font-family: $font-family-base;
+$input-font-size: 12px;
+$input-font-weight: 400;
+$input-line-height: 1.25;
+$input-bg: transparent;
+$input-padding-x: 0;
+$input-padding-y: 0;
+$input-disabled-bg: transparent;
+$input-color: $input-color;
+$input-border-color: $gray;
+$input-border-width: 1px;
+$input-box-shadow: none;
+$input-border-radius: 0;
+$input-focus-bg: transparent;
+$input-focus-border-color: $primary;
+$input-focus-color: $input-color;
+$input-focus-box-shadow: none;
+$input-placeholder-color: $gray-dark-1;
+$input-plaintext-color: $gray-dark-1;
+$input-height: 30px;
+
+// Dropdown
+$dropdown-border-color: #fff;
+$dropdown-border-radius: 2px;
+$dropdown-box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.1);
+$dropdown-min-width: 35px;
+$dropdown-item-padding-x: 0;
+
+// Popover
+$popover-border-color: #fff;
+$popover-body-padding-y: 0;
+$popover-body-padding-x: 0;
+$popover-box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.1);
+$popover-max-width: 360px;
+$popover-arrow-width: 16px;
+$popover-arrow-height: 8px;
+
+// Pagination
+$pagination-padding-y: 0;
+$pagination-padding-x: 0.5rem;
+$pagination-line-height: 1;
+$pagination-border-width: 0;
+$pagination-color: $text-color;
+$pagination-focus-box-shadow: null;
+$pagination-hover-bg: null;
+$pagination-hover-border-color: null;
+$pagination-active-color: $primary;
+$pagination-active-bg: null;
+$pagination-active-border-color: null;
+
+// Modals
+$modal-inner-padding: 20px 35px 35px 35px;
+$modal-content-border-width: 0;
+$modal-content-border-color: transparent;
+$modal-content-border-radius: 2px;
+$modal-content-box-shadow-base: 5px 5px 5px rgba($black, 0.1);
+$modal-content-box-shadow-xs: $modal-content-box-shadow-base;
+$modal-content-box-shadow-sm-up: $modal-content-box-shadow-base;
+$modal-header-border-color: #fff;
+$modal-sm: 256px;
+$modal-md: 320px;
+
+// Breadcrumb
+$breadcrumb-font-size: 11px;
+$breadcrumb-margin-bottom: 15px;
+$breadcrumb-padding-y: 20px;
+$breadcrumb-padding-x: 0;
+$breadcrumb-bg: null;
+$breadcrumb-active-color: $text-color;
+
+// Table
+$table-border-color: $light-3;
+$table-cell-padding: 0;
+
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 414px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1500px
+);
+
+// Grid containers
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+  xxl: 1440px
+);

@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound renders not found page 1`] = `
+<main
+  class="not-found-page"
+>
+  <div
+    class="not-found"
+  >
+    <div
+      class="not-found__background"
+    >
+      <span
+        class="not-found__error"
+      >
+        404
+      </span>
+       
+      <picture>
+        <source
+          data-srcset="/img/error-page/background_xxl.webp"
+          media="(min-width: 1500px)"
+          type="image/webp"
+        />
+         
+        <source
+          data-srcset="/img/error-page/background_xxl.png"
+          media="(min-width: 1500px)"
+          type="image/png"
+        />
+         
+        <source
+          data-srcset="/img/error-page/background_xl.webp"
+          media="(min-width: 1200px)"
+          type="image/webp"
+        />
+         
+        <source
+          data-srcset="/img/error-page/background_xl.png"
+          media="(min-width: 1200px)"
+          type="image/png"
+        />
+         
+        <source
+          data-srcset="/img/error-page/background_lg.webp"
+          media="(min-width: 992px)"
+          type="image/webp"
+        />
+         
+        <source
+          data-srcset="/img/error-page/background_lg.png"
+          media="(min-width: 992px)"
+          type="image/png"
+        />
+         
+        <source
+          data-srcset="/img/error-page/background_md.webp"
+          media="(min-width: 768px)"
+          type="image/webp"
+        />
+         
+        <source
+          data-srcset="/img/error-page/background_md.png"
+          media="(min-width: 768px)"
+          type="image/png"
+        />
+         
+        <source
+          data-srcset="/img/error-page/background.webp"
+          type="image/webp"
+        />
+         
+        <img
+          alt="hanger"
+          class="not-found__image lazyload"
+          data-object-fit="cover"
+          data-object-position="center center"
+          data-src="/img/error-page/background.png"
+          height="100"
+          loading="lazy"
+          width="100"
+        />
+      </picture>
+    </div>
+     
+    <div
+      class="not-found__container container"
+    >
+      <div
+        class="not-found__title"
+      >
+        
+      </div>
+       
+      <div
+        class="not-found__description"
+      >
+        
+      
+    
+      </div>
+       
+      <button
+        class="btn not-found__link btn-primary"
+        type="button"
+      >
+        
+      
+    
+      </button>
+    </div>
+  </div>
+</main>
+`;

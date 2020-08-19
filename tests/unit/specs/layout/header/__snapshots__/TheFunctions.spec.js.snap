@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheMasthead renders TheFunctions components 1`] = `
+<div
+  class="functions"
+>
+  <div
+    class="functions__item functions__instagram"
+  >
+    <a
+      href="https://www.instagram.com/"
+      target="_blank"
+    >
+      <svg-icon-stub
+        class="functions__icon"
+        name="instagram"
+      />
+    </a>
+  </div>
+   
+  <cartpreview-stub />
+</div>
+`;

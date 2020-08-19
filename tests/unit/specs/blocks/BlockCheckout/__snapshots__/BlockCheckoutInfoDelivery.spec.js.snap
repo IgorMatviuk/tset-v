@@ -1,0 +1,3262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockCheckoutInfoDelivery Using "abroad" delivery method has expected structure 1`] = `
+<div
+  class="checkout-info"
+>
+  <div
+    class="checkout-info__title"
+  >
+    
+    checkoutPage.deliveryMethod
+  
+  </div>
+   
+  <fieldset
+    class="form-group checkout-info__group checkout-info__delivery-methods"
+  >
+    <!---->
+    <div
+      class="bv-no-focus-ring"
+      role="group"
+      tabindex="-1"
+    >
+      <div
+        class="checkout-info__radio-group bv-no-focus-ring"
+        role="radiogroup"
+        tabindex="-1"
+      >
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="novaposhta"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.novaposhta
+      
+          </label>
+        </div>
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="local"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.local
+      
+          </label>
+        </div>
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="abroad"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.abroad
+      
+          </label>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </fieldset>
+   
+  <div
+    class="checkout-info__delivery-wrapper"
+  >
+    <div
+      class="form-row form-group checkout-info__group custom-field-group"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label custom-label--required"
+        for="checkoutСountry"
+      >
+        form.labels.country
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <div
+          class="search-select"
+        >
+          <input
+            class="checkout-info__input search-select__input form-control"
+            id="checkoutСountry"
+            placeholder="form.placeholders.country"
+            readonly="readonly"
+            type="text"
+          />
+           
+          <svg-icon-stub
+            class="search-select__chevron"
+            height="10"
+            name="chevron"
+            widht="10"
+          />
+           
+          <div
+            class="search-select__dropdown"
+          >
+            <div
+              class="search-select__group"
+            >
+              <svg-icon-stub
+                class="search-select__icon"
+                height="15"
+                name="search"
+                width="15"
+              />
+               
+              <input
+                class="search-select__input search-select__input--search form-control"
+                type="text"
+              />
+            </div>
+             
+            <client-only-stub>
+              <div
+                class="search-select__options ps"
+              >
+                <div
+                  class="search-select__option"
+                >
+                  
+          Россия
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Польша
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чехия
+        
+                </div>
+                <div
+                  class="ps__rail-x"
+                  style="left: 0px; top: 0px;"
+                >
+                  <div
+                    class="ps__thumb-x"
+                    style="left: 0px; width: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+                <div
+                  class="ps__rail-y"
+                  style="top: 0px; left: 0px;"
+                >
+                  <div
+                    class="ps__thumb-y"
+                    style="top: 0px; height: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+              </div>
+            </client-only-stub>
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+     
+    <div
+      class="form-row form-group checkout-info__group custom-field-group"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label"
+        for="checkoutСity"
+      >
+        form.labels.state
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <input
+          class="checkout-info__input form-control"
+          id="checkoutCity"
+          placeholder="form.placeholders.state"
+          type="text"
+        />
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+     
+    <!---->
+     
+    <div
+      class="form-row form-group checkout-info__group custom-field-group"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label"
+        for="checkoutAddress"
+      >
+        form.labels.address
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <input
+          class="checkout-info__input form-control"
+          id="checkoutAddress"
+          placeholder="form.placeholders.address"
+          type="text"
+        />
+         
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="checkout-info__delivery-sale"
+  >
+    
+    checkoutPage.freeShipping.message
+  
+  </div>
+</div>
+`;
+
+exports[`BlockCheckoutInfoDelivery Using "local" delivery method has expected structure 1`] = `
+<div
+  class="checkout-info"
+>
+  <div
+    class="checkout-info__title"
+  >
+    
+    checkoutPage.deliveryMethod
+  
+  </div>
+   
+  <fieldset
+    class="form-group checkout-info__group checkout-info__delivery-methods"
+  >
+    <!---->
+    <div
+      class="bv-no-focus-ring"
+      role="group"
+      tabindex="-1"
+    >
+      <div
+        class="checkout-info__radio-group bv-no-focus-ring"
+        role="radiogroup"
+        tabindex="-1"
+      >
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="novaposhta"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.novaposhta
+      
+          </label>
+        </div>
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="local"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.local
+      
+          </label>
+        </div>
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="abroad"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.abroad
+      
+          </label>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </fieldset>
+   
+  <div
+    class="checkout-info__delivery-wrapper"
+  >
+    <!---->
+     
+    <div
+      class="form-row form-group checkout-info__group custom-field-group"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label custom-label--required"
+        for="checkoutRegion"
+      >
+        form.labels.region
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <div
+          class="search-select"
+        >
+          <input
+            class="checkout-info__input search-select__input form-control"
+            id="checkoutRegion"
+            placeholder="form.placeholders.region"
+            readonly="readonly"
+            type="text"
+          />
+           
+          <svg-icon-stub
+            class="search-select__chevron"
+            height="10"
+            name="chevron"
+            widht="10"
+          />
+           
+          <div
+            class="search-select__dropdown"
+          >
+            <div
+              class="search-select__group"
+            >
+              <svg-icon-stub
+                class="search-select__icon"
+                height="15"
+                name="search"
+                width="15"
+              />
+               
+              <input
+                class="search-select__input search-select__input--search form-control"
+                type="text"
+              />
+            </div>
+             
+            <client-only-stub>
+              <div
+                class="search-select__options ps"
+              >
+                <div
+                  class="search-select__option"
+                >
+                  
+          Винницкая область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Волынская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Днепропетровская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Донецкая область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Житомирская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Закарпатская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Запорожская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ивано-Франковская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Киевская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Кировоградская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Луганская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Львовская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Николаевская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Одесская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Полтавская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ровенская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Сумская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Тернопольская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Харьковская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Херсонская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Хмельницкая область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черкасская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черниговская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черновецкая область
+        
+                </div>
+                <div
+                  class="ps__rail-x"
+                  style="left: 0px; top: 0px;"
+                >
+                  <div
+                    class="ps__thumb-x"
+                    style="left: 0px; width: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+                <div
+                  class="ps__rail-y"
+                  style="top: 0px; left: 0px;"
+                >
+                  <div
+                    class="ps__thumb-y"
+                    style="top: 0px; height: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+              </div>
+            </client-only-stub>
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+     
+    <div
+      class="form-row form-group checkout-info__group custom-field-group checkout-info__group--disabled"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label custom-label--required"
+        for="checkoutState"
+      >
+        form.labels.state
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <div
+          class="search-select"
+        >
+          <input
+            class="checkout-info__input search-select__input form-control"
+            id="checkoutState"
+            placeholder="form.placeholders.state"
+            readonly="readonly"
+            type="text"
+          />
+           
+          <svg-icon-stub
+            class="search-select__chevron"
+            height="10"
+            name="chevron"
+            widht="10"
+          />
+           
+          <div
+            class="search-select__dropdown"
+          >
+            <div
+              class="search-select__group"
+            >
+              <svg-icon-stub
+                class="search-select__icon"
+                height="15"
+                name="search"
+                width="15"
+              />
+               
+              <input
+                class="search-select__input search-select__input--search form-control"
+                type="text"
+              />
+            </div>
+             
+            <client-only-stub>
+              <div
+                class="search-select__options ps"
+              >
+                <div
+                  class="search-select__option"
+                >
+                  
+          Агайманы
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Азовское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Александровка (Новотроицкий р-н, Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Александровка (Скадовский р-н., Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Алексеевка (Генический р-н, Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Алексеевка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Архангельское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Аскания-Нова
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Балтазаровка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Белая Криница (Херсонская область)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Белозерка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Берислав (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Бехтеры
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Борозенское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Брилевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Васильевка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Велетенское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Великая Александровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Великая Лепетиха
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Великие Копани (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Верхние Серогозы
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Верхний Рогачик
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Веселое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Виноградово (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Воскресенка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Высокополье
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Геническ
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Гладковка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Голая Пристань
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Горностаевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Григорьевка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Громовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Дарьевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Дмитровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Днепровское (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Днепряны
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Долинское (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Дудчаны
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Дудчино
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Железный Порт
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Заозерное
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Зеленый Под
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Зимовник
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Золотая Балка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ивановка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Казачьи Лагери
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Каиры
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Каланчак
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Калиновское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Камышаны
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Каховка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Кизомыс
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Князе-Григоровка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Козацкое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Константиновка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Коробки
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Корсунка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Красное (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Круглозёрка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Лазурное (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Львовое
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Любимо-Павловка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Любимовка (Каховский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Любимовка (Нововоронцовський р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Малокаховка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Малые Копани
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Михайловка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Музыковка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Надеждовка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Нижние Серогозы
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Нижние Торгаи
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новая Збурьевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новая Каховка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новая Маячка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новоалександровка (Нижнесерогозский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новоалександровка (Нововорон.р-н,Херсон.обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новоалексеевка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новоберислав
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Нововоронцовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новодмитровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новониколаевка (Новотроицкий р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новониколаевка(Скадовский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новопокровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новософиевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новотроицкое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Олешки (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Осокоровка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отрадовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отрадокаменка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Павловка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Павловка (Херсонская обл., Генический р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Памятное
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Первомаевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Першоконстантиновка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Петровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Плодовое
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Преображенка (Каланчацкий р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Преображенка (Чаплинский р-н., Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Раденск
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Раздольное
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Райское(Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ровное (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ромашково
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Рубановка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Рыково
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Семеновка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Сергеевка (Каховский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Сивашское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Скадовск
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Старая Збурьевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Стрелковое
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Строгановка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Счастливое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Счастливцево (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Таврийск (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Таврийское (Голопристанский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Тавричанка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Таврия (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Тополевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Тягинка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Херсон
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Хрестовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Цукуры
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чаплинка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черноморовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черноморское (Голопристанский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чернянка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чкалово (Новотроицкий р-н, Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чонгар(Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чорнобаевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чулаковка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Шевченко (Скадовский р-н, Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Широкое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="ps__rail-x"
+                  style="left: 0px; top: 0px;"
+                >
+                  <div
+                    class="ps__thumb-x"
+                    style="left: 0px; width: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+                <div
+                  class="ps__rail-y"
+                  style="top: 0px; left: 0px;"
+                >
+                  <div
+                    class="ps__thumb-y"
+                    style="top: 0px; height: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+              </div>
+            </client-only-stub>
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+     
+    <!---->
+     
+    <div
+      class="form-row form-group checkout-info__group custom-field-group checkout-info__group--disabled"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label custom-label--required"
+        for="checkoutAddress"
+      >
+        form.labels.address
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <input
+          class="checkout-info__input form-control"
+          id="checkoutAddress"
+          placeholder="form.placeholders.address"
+          type="text"
+        />
+         
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="checkout-info__delivery-sale"
+  >
+    
+    checkoutPage.freeShipping.message
+  
+  </div>
+</div>
+`;
+
+exports[`BlockCheckoutInfoDelivery Using "novaposhta" delivery method has expected structure 1`] = `
+<div
+  class="checkout-info"
+>
+  <div
+    class="checkout-info__title"
+  >
+    
+    checkoutPage.deliveryMethod
+  
+  </div>
+   
+  <fieldset
+    class="form-group checkout-info__group checkout-info__delivery-methods"
+  >
+    <!---->
+    <div
+      class="bv-no-focus-ring"
+      role="group"
+      tabindex="-1"
+    >
+      <div
+        class="checkout-info__radio-group bv-no-focus-ring"
+        role="radiogroup"
+        tabindex="-1"
+      >
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="novaposhta"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.novaposhta
+      
+          </label>
+        </div>
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="local"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.local
+      
+          </label>
+        </div>
+         
+        <div
+          class="checkout-info__radio checkout-info__radio--delivery custom-control custom-control-inline custom-radio"
+        >
+          <input
+            autocomplete="off"
+            class="custom-control-input"
+            name="delivery_method"
+            type="radio"
+            value="abroad"
+          />
+          <label
+            class="custom-control-label"
+          >
+            
+        checkoutPage.delivery.abroad
+      
+          </label>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </fieldset>
+   
+  <div
+    class="checkout-info__delivery-wrapper"
+  >
+    <!---->
+     
+    <div
+      class="form-row form-group checkout-info__group custom-field-group"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label custom-label--required"
+        for="checkoutRegion"
+      >
+        form.labels.region
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <div
+          class="search-select"
+        >
+          <input
+            class="checkout-info__input search-select__input form-control"
+            id="checkoutRegion"
+            placeholder="form.placeholders.region"
+            readonly="readonly"
+            type="text"
+          />
+           
+          <svg-icon-stub
+            class="search-select__chevron"
+            height="10"
+            name="chevron"
+            widht="10"
+          />
+           
+          <div
+            class="search-select__dropdown"
+          >
+            <div
+              class="search-select__group"
+            >
+              <svg-icon-stub
+                class="search-select__icon"
+                height="15"
+                name="search"
+                width="15"
+              />
+               
+              <input
+                class="search-select__input search-select__input--search form-control"
+                type="text"
+              />
+            </div>
+             
+            <client-only-stub>
+              <div
+                class="search-select__options ps"
+              >
+                <div
+                  class="search-select__option"
+                >
+                  
+          Винницкая область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Волынская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Днепропетровская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Донецкая область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Житомирская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Закарпатская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Запорожская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ивано-Франковская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Киевская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Кировоградская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Луганская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Львовская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Николаевская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Одесская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Полтавская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ровенская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Сумская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Тернопольская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Харьковская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Херсонская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Хмельницкая область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черкасская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черниговская область
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черновецкая область
+        
+                </div>
+                <div
+                  class="ps__rail-x"
+                  style="left: 0px; top: 0px;"
+                >
+                  <div
+                    class="ps__thumb-x"
+                    style="left: 0px; width: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+                <div
+                  class="ps__rail-y"
+                  style="top: 0px; left: 0px;"
+                >
+                  <div
+                    class="ps__thumb-y"
+                    style="top: 0px; height: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+              </div>
+            </client-only-stub>
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+     
+    <div
+      class="form-row form-group checkout-info__group custom-field-group checkout-info__group--disabled"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label custom-label--required"
+        for="checkoutState"
+      >
+        form.labels.state
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <div
+          class="search-select"
+        >
+          <input
+            class="checkout-info__input search-select__input form-control"
+            id="checkoutState"
+            placeholder="form.placeholders.state"
+            readonly="readonly"
+            type="text"
+          />
+           
+          <svg-icon-stub
+            class="search-select__chevron"
+            height="10"
+            name="chevron"
+            widht="10"
+          />
+           
+          <div
+            class="search-select__dropdown"
+          >
+            <div
+              class="search-select__group"
+            >
+              <svg-icon-stub
+                class="search-select__icon"
+                height="15"
+                name="search"
+                width="15"
+              />
+               
+              <input
+                class="search-select__input search-select__input--search form-control"
+                type="text"
+              />
+            </div>
+             
+            <client-only-stub>
+              <div
+                class="search-select__options ps"
+              >
+                <div
+                  class="search-select__option"
+                >
+                  
+          Агайманы
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Азовское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Александровка (Новотроицкий р-н, Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Александровка (Скадовский р-н., Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Алексеевка (Генический р-н, Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Алексеевка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Архангельское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Аскания-Нова
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Балтазаровка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Белая Криница (Херсонская область)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Белозерка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Берислав (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Бехтеры
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Борозенское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Брилевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Васильевка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Велетенское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Великая Александровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Великая Лепетиха
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Великие Копани (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Верхние Серогозы
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Верхний Рогачик
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Веселое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Виноградово (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Воскресенка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Высокополье
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Геническ
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Гладковка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Голая Пристань
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Горностаевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Григорьевка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Громовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Дарьевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Дмитровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Днепровское (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Днепряны
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Долинское (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Дудчаны
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Дудчино
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Железный Порт
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Заозерное
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Зеленый Под
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Зимовник
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Золотая Балка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ивановка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Казачьи Лагери
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Каиры
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Каланчак
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Калиновское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Камышаны
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Каховка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Кизомыс
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Князе-Григоровка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Козацкое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Константиновка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Коробки
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Корсунка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Красное (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Круглозёрка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Лазурное (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Львовое
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Любимо-Павловка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Любимовка (Каховский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Любимовка (Нововоронцовський р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Малокаховка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Малые Копани
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Михайловка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Музыковка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Надеждовка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Нижние Серогозы
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Нижние Торгаи
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новая Збурьевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новая Каховка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новая Маячка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новоалександровка (Нижнесерогозский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новоалександровка (Нововорон.р-н,Херсон.обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новоалексеевка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новоберислав
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Нововоронцовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новодмитровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новониколаевка (Новотроицкий р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новониколаевка(Скадовский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новопокровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новософиевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Новотроицкое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Олешки (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Осокоровка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отрадовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отрадокаменка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Павловка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Павловка (Херсонская обл., Генический р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Памятное
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Первомаевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Першоконстантиновка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Петровка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Плодовое
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Преображенка (Каланчацкий р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Преображенка (Чаплинский р-н., Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Раденск
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Раздольное
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Райское(Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ровное (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Ромашково
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Рубановка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Рыково
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Семеновка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Сергеевка (Каховский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Сивашское
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Скадовск
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Старая Збурьевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Стрелковое
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Строгановка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Счастливое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Счастливцево (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Таврийск (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Таврийское (Голопристанский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Тавричанка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Таврия (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Тополевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Тягинка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Херсон
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Хрестовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Цукуры
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чаплинка (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черноморовка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Черноморское (Голопристанский р-н)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чернянка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чкалово (Новотроицкий р-н, Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чонгар(Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чорнобаевка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Чулаковка
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Шевченко (Скадовский р-н, Херсонская обл.)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Широкое (Херсонская обл.)
+        
+                </div>
+                <div
+                  class="ps__rail-x"
+                  style="left: 0px; top: 0px;"
+                >
+                  <div
+                    class="ps__thumb-x"
+                    style="left: 0px; width: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+                <div
+                  class="ps__rail-y"
+                  style="top: 0px; left: 0px;"
+                >
+                  <div
+                    class="ps__thumb-y"
+                    style="top: 0px; height: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+              </div>
+            </client-only-stub>
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+     
+    <div
+      class="form-row form-group checkout-info__group custom-field-group checkout-info__group--disabled"
+      role="group"
+    >
+      <label
+        class="col-md-3 col-form-label checkout-info__label checkout-info__label--delivery custom-label custom-label--required"
+        for="checkoutOffice"
+      >
+        form.labels.office
+      </label>
+      <div
+        class="bv-no-focus-ring col"
+      >
+        <div
+          class="search-select"
+        >
+          <input
+            class="checkout-info__input search-select__input form-control"
+            id="checkoutOffice"
+            placeholder="form.placeholders.office"
+            readonly="readonly"
+            type="text"
+          />
+           
+          <svg-icon-stub
+            class="search-select__chevron"
+            height="10"
+            name="chevron"
+            widht="10"
+          />
+           
+          <div
+            class="search-select__dropdown"
+          >
+            <div
+              class="search-select__group"
+            >
+              <svg-icon-stub
+                class="search-select__icon"
+                height="15"
+                name="search"
+                width="15"
+              />
+               
+              <input
+                class="search-select__input search-select__input--search form-control"
+                type="text"
+              />
+            </div>
+             
+            <client-only-stub>
+              <div
+                class="search-select__options ps"
+              >
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №1: Николаевское шоссе, 5-й км
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №3: просп. Адмирала Сенявина, 27
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №4: ул. Патона, 2а
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №5 (до 30 кг): ул. Сретенская (ран. Розы Люксембург, 11а
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №6 (до 30 кг): ул. Театральная (ран. Горького), 9
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №7 (до 30 кг): просп. 200 лет Херсона, 30
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №8 (до 30 кг на одно место): ул. Перекопская ,173
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №9 (до 30 кг): просп. Святых Кирилла и Мефодия (ран. Димитрова), 19
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №10 (до 30 кг на одно место): ул. Полковника Кедровского (ран. Буденного), 12а
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №11 (до 30 кг на одно место): ул. Университетская (ран. 40-летия Октября), 110
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №12 (до 30 кг на одно место): ул. Чорноморская, 16
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №13 (до 30 кг на одно место): вул. Залаегерсег, 18 (ТРЦ Фабрика)
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №14 (до 30 кг на одно место): шоссе Вячеслава Черновола (ран. Киндийское), 17а
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №15 (до 15 кг), Мини-отделение: ул. 49 Гвардейской Херсонской дивизии, 26-А
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №17 (до 30 кг на одно место): ул. Вишневая, 52
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №18 (до 30 кг на одно место): ул. Перекопская, 39а
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №19 (до 15 кг), Мини-отделение: просп. Ушакова, 49 (ТЦ Цум )
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №20 (до 30 кг на одно место): просп. Ушакова, 62
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №21 (до 30 кг на одно место): ул. Соборная, 14/16
+        
+                </div>
+                <div
+                  class="search-select__option"
+                >
+                  
+          Отделение №22 (до 30 кг): просп. Святых Кирилла и Мефодия (ран. Димитрова), 10
+        
+                </div>
+                <div
+                  class="ps__rail-x"
+                  style="left: 0px; top: 0px;"
+                >
+                  <div
+                    class="ps__thumb-x"
+                    style="left: 0px; width: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+                <div
+                  class="ps__rail-y"
+                  style="top: 0px; left: 0px;"
+                >
+                  <div
+                    class="ps__thumb-y"
+                    style="top: 0px; height: 0px;"
+                    tabindex="0"
+                  />
+                </div>
+              </div>
+            </client-only-stub>
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+     
+    <!---->
+  </div>
+   
+  <div
+    class="checkout-info__delivery-sale"
+  >
+    
+    checkoutPage.freeShipping.message
+  
+  </div>
+</div>
+`;

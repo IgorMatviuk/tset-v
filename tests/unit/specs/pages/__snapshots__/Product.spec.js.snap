@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product renders component itself (RU) 1`] = `
+<main
+  class="product-page"
+>
+  <thebreadcrumb-stub
+    items="[object Object]"
+  />
+   
+  <blockproduct-stub
+    links="[object Object]"
+    product="[object Object]"
+  />
+   
+  <!---->
+   
+  <blockproductslist-stub
+    class="product-page__bestsellers"
+    heading="productPage.featuredProducts"
+    parentclass="product-page__bestsellers"
+    products=""
+  />
+   
+  <client-only-stub>
+    <!---->
+  </client-only-stub>
+   
+  <blocksitedescription-stub
+    content=<p>Product description</p>
+  />
+   
+  <theimageviewer-stub
+    activeindex="3"
+  />
+</main>
+`;
+
+exports[`Product renders component itself (UA) 1`] = `
+<main
+  class="product-page"
+>
+  <thebreadcrumb-stub
+    items="[object Object]"
+  />
+   
+  <blockproduct-stub
+    links="[object Object]"
+    product="[object Object]"
+  />
+   
+  <!---->
+   
+  <blockproductslist-stub
+    class="product-page__bestsellers"
+    heading="productPage.featuredProducts"
+    parentclass="product-page__bestsellers"
+    products=""
+  />
+   
+  <client-only-stub>
+    <!---->
+  </client-only-stub>
+   
+  <blocksitedescription-stub
+    content=<p>Product description</p>
+  />
+   
+  <theimageviewer-stub
+    activeindex="3"
+  />
+</main>
+`;
+
+exports[`Product renders components with default gallery active index 1`] = `
+<main
+  class="product-page"
+>
+  <thebreadcrumb-stub
+    items="[object Object]"
+  />
+   
+  <blockproduct-stub
+    links="[object Object]"
+    product="[object Object]"
+  />
+   
+  <!---->
+   
+  <blockproductslist-stub
+    class="product-page__bestsellers"
+    heading="productPage.featuredProducts"
+    parentclass="product-page__bestsellers"
+    products=""
+  />
+   
+  <client-only-stub>
+    <!---->
+  </client-only-stub>
+   
+  <blocksitedescription-stub
+    content=<p>Product description</p>
+  />
+   
+  <theimageviewer-stub
+    activeindex="3"
+  />
+</main>
+`;

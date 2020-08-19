@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockCheckoutOrder renders discount prices 1`] = `
+<div
+  class="checkout-order"
+>
+  <div
+    class="checkout-order__header"
+  >
+    <div
+      class="checkout-order__title"
+    >
+      
+      checkoutPage.yourOrder
+    
+    </div>
+     
+    <nuxtlink-stub
+      class="checkout-order__proceed"
+    >
+      
+      checkoutPage.backToShopping
+    
+    </nuxtlink-stub>
+  </div>
+   
+  <div
+    class="checkout-order__content"
+  />
+   
+  <div
+    class="checkout-order__footer"
+  >
+    <transition-group-stub
+      name="fade"
+    >
+      <div
+        class="checkout-order__footer-item checkout-order__footer-item--sale"
+      >
+        <div
+          class="checkout-order__footer-title checkout-order__footer-title--sale"
+        >
+          
+          checkoutPage.orderPrice
+        
+        </div>
+         
+        <div
+          class="checkout-order__price"
+        >
+          
+          
+        
+        </div>
+      </div>
+       
+      <div
+        class="checkout-order__footer-item"
+      >
+        <div
+          class="checkout-order__footer-title checkout-order__footer-title--sale"
+        >
+          
+          checkoutPage.discount
+        
+        </div>
+         
+        <div
+          class="checkout-order__sale"
+        >
+          
+          - 200 грн
+        
+        </div>
+      </div>
+       
+      <!---->
+       
+      <div
+        class="checkout-order__footer-item"
+      >
+        <div
+          class="checkout-order__footer-title"
+        >
+          
+          cart.total
+        
+        </div>
+         
+        <div
+          class="checkout-order__total-price"
+        >
+          
+          800 грн
+        
+        </div>
+      </div>
+    </transition-group-stub>
+  </div>
+</div>
+`;
+
+exports[`BlockCheckoutOrder renders free shipping message 1`] = `
+<div
+  class="checkout-order"
+>
+  <div
+    class="checkout-order__header"
+  >
+    <div
+      class="checkout-order__title"
+    >
+      
+      checkoutPage.yourOrder
+    
+    </div>
+     
+    <nuxtlink-stub
+      class="checkout-order__proceed"
+    >
+      
+      checkoutPage.backToShopping
+    
+    </nuxtlink-stub>
+  </div>
+   
+  <div
+    class="checkout-order__content"
+  />
+   
+  <div
+    class="checkout-order__footer"
+  >
+    <transition-group-stub
+      name="fade"
+    >
+      <div
+        class="checkout-order__footer-item checkout-order__footer-item--sale"
+      >
+        <div
+          class="checkout-order__footer-title checkout-order__footer-title--sale"
+        >
+          
+          checkoutPage.orderPrice
+        
+        </div>
+         
+        <div
+          class="checkout-order__price"
+        >
+          
+          
+        
+        </div>
+      </div>
+       
+      <div
+        class="checkout-order__footer-item"
+      >
+        <div
+          class="checkout-order__footer-title checkout-order__footer-title--sale"
+        >
+          
+          checkoutPage.discount
+        
+        </div>
+         
+        <div
+          class="checkout-order__sale"
+        >
+          
+          - 400 грн
+        
+        </div>
+      </div>
+       
+      <div
+        class="checkout-order__footer-item"
+      >
+        <div
+          class="checkout-order__footer-title"
+        >
+          
+          checkoutPage.freeShipping.name
+        
+        </div>
+         
+        <div
+          class="checkout-order__total-price"
+        >
+          
+          checkoutPage.freeShipping.price
+        
+        </div>
+      </div>
+       
+      <div
+        class="checkout-order__footer-item"
+      >
+        <div
+          class="checkout-order__footer-title"
+        >
+          
+          cart.total
+        
+        </div>
+         
+        <div
+          class="checkout-order__total-price"
+        >
+          
+          1600 грн
+        
+        </div>
+      </div>
+    </transition-group-stub>
+  </div>
+</div>
+`;

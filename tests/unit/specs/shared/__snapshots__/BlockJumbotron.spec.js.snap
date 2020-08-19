@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockPostNavigation render block jumbotron 1`] = `
+<div
+  class="block-jumbotron"
+>
+  <div
+    class="block-jumbotron__container container"
+  >
+    <picture>
+      <source
+        data-srcset="/img/blog/background_xl.webp"
+        media="(min-width: 1500px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/blog/background_xl.jpg"
+        media="(min-width: 1500px)"
+        srcset="/img/stub.png"
+        type="image/jpeg"
+      />
+       
+      <source
+        data-srcset="/img/blog/background_lg.webp"
+        media="(min-width: 1200px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/blog/background_lg.jpg"
+        media="(min-width: 1200px)"
+        srcset="/img/stub.png"
+        type="image/jpeg"
+      />
+       
+      <source
+        data-srcset="/img/blog/background_md.webp"
+        media="(min-width: 992px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/blog/background_md.jpg"
+        media="(min-width: 992px)"
+        srcset="/img/stub.png"
+        type="image/jpeg"
+      />
+       
+      <source
+        data-srcset="/img/blog/background_sm.webp"
+        media="(min-width: 768px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/blog/background_sm.jpg"
+        media="(min-width: 768px)"
+        srcset="/img/stub.png"
+        type="image/jpeg"
+      />
+       
+      <source
+        data-srcset="/img/blog/background_xs.webp"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <img
+        alt="title"
+        class="block-jumbotron__image lazyload"
+        data-object-fit="cover"
+        data-object-position="center bottom"
+        data-srcset="/img/blog/background_xs.jpg"
+        height="100"
+        loading="lazy"
+        src="/img/stub.png"
+        width="100"
+      />
+    </picture>
+     
+    <h1
+      class="block-jumbotron__title"
+    />
+  </div>
+</div>
+`;

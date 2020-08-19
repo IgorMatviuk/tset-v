@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheBanner has expected structure 1`] = `
+<div
+  class="top-info top-info--animate"
+>
+  <bcontainer-stub
+    class="top-info__container"
+    tag="div"
+  >
+    <nuxtlink-stub
+      class="top-info__link"
+      target="_blank"
+      to="bryuki-i-shorty"
+    />
+     
+    <picture>
+      <source
+        data-srcset="/img/top-info/top-info_xl.png"
+        media="(min-width: 1200px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/top-info/top-info_xl.png"
+        media="(min-width: 1200px)"
+        srcset="/img/stub.png"
+        type="image/png"
+      />
+       
+      <source
+        data-srcset="/img/top-info/top-info_md.png"
+        media="(min-width: 768px)"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <source
+        data-srcset="/img/top-info/top-info_md.png"
+        media="(min-width: 768px)"
+        srcset="/img/stub.png"
+        type="image/png"
+      />
+       
+      <source
+        data-srcset="/img/top-info/top-info_sm.png"
+        srcset="/img/stub.png"
+        type="image/webp"
+      />
+       
+      <img
+        alt="Top Info"
+        class="top-info__img lazyload"
+        data-object-fit="cover"
+        data-object-position="center bottom"
+        data-src="/img/top-info/top-info_sm.png"
+        height="100"
+        loading="lazy"
+        src="/img/stub.png"
+        width="100"
+      />
+    </picture>
+  </bcontainer-stub>
+</div>
+`;

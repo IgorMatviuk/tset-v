@@ -1,0 +1,2393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockBlogGrid render blog grid 1`] = `
+<div
+  class="blog-grid"
+>
+  <!---->
+   
+  <div
+    class="container"
+  >
+    <ul
+      aria-disabled="false"
+      aria-label="Pagination"
+      class="pagination page-pagination blog-grid__top-pagination b-pagination"
+      role="menubar"
+    >
+      <!---->
+      <li
+        aria-hidden="true"
+        class="page-item disabled"
+        role="presentation"
+      >
+        <span
+          aria-disabled="true"
+          aria-label="Go to previous page"
+          class="page-link"
+          role="menuitem"
+        >
+          <svg-icon-stub
+            class="page-pagination__icon page-pagination__icon--prev"
+            name="arrow"
+          />
+        </span>
+      </li>
+      <!---->
+      <!---->
+      <li
+        class="page-item active"
+        role="presentation"
+      >
+        <button
+          aria-checked="true"
+          aria-label="Go to page 1"
+          aria-posinset="1"
+          aria-setsize="6"
+          class="page-link"
+          role="menuitemradio"
+          tabindex="0"
+          type="button"
+        >
+          1
+        </button>
+      </li>
+      <li
+        class="page-item"
+        role="presentation"
+      >
+        <button
+          aria-checked="false"
+          aria-label="Go to page 2"
+          aria-posinset="2"
+          aria-setsize="6"
+          class="page-link"
+          role="menuitemradio"
+          tabindex="-1"
+          type="button"
+        >
+          2
+        </button>
+      </li>
+      <li
+        class="page-item"
+        role="presentation"
+      >
+        <button
+          aria-checked="false"
+          aria-label="Go to page 3"
+          aria-posinset="3"
+          aria-setsize="6"
+          class="page-link"
+          role="menuitemradio"
+          tabindex="-1"
+          type="button"
+        >
+          3
+        </button>
+      </li>
+      <li
+        class="page-item bv-d-xs-down-none"
+        role="presentation"
+      >
+        <button
+          aria-checked="false"
+          aria-label="Go to page 4"
+          aria-posinset="4"
+          aria-setsize="6"
+          class="page-link"
+          role="menuitemradio"
+          tabindex="-1"
+          type="button"
+        >
+          4
+        </button>
+      </li>
+      <li
+        class="page-item disabled bv-d-xs-down-none"
+        role="separator"
+      >
+        <span
+          class="page-link"
+        >
+          …
+        </span>
+      </li>
+      <!---->
+      <li
+        class="page-item"
+        role="presentation"
+      >
+        <button
+          aria-label="Go to next page"
+          class="page-link"
+          role="menuitem"
+          tabindex="-1"
+          type="button"
+        >
+          <svg-icon-stub
+            class="page-pagination__icon page-pagination__icon--next"
+            name="arrow"
+          />
+        </button>
+      </li>
+      <!---->
+    </ul>
+     
+    <div
+      class="blog-grid__container"
+    >
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        aria-disabled="false"
+        aria-label="Pagination"
+        class="pagination page-pagination blog-grid__bottom-pagination b-pagination"
+        role="menubar"
+      >
+        <!---->
+        <li
+          aria-hidden="true"
+          class="page-item disabled"
+          role="presentation"
+        >
+          <span
+            aria-disabled="true"
+            aria-label="Go to previous page"
+            class="page-link"
+            role="menuitem"
+          >
+            <svg-icon-stub
+              class="page-pagination__icon page-pagination__icon--prev"
+              name="arrow"
+            />
+          </span>
+        </li>
+        <!---->
+        <!---->
+        <li
+          class="page-item active"
+          role="presentation"
+        >
+          <button
+            aria-checked="true"
+            aria-label="Go to page 1"
+            aria-posinset="1"
+            aria-setsize="6"
+            class="page-link"
+            role="menuitemradio"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+        </li>
+        <li
+          class="page-item"
+          role="presentation"
+        >
+          <button
+            aria-checked="false"
+            aria-label="Go to page 2"
+            aria-posinset="2"
+            aria-setsize="6"
+            class="page-link"
+            role="menuitemradio"
+            tabindex="-1"
+            type="button"
+          >
+            2
+          </button>
+        </li>
+        <li
+          class="page-item"
+          role="presentation"
+        >
+          <button
+            aria-checked="false"
+            aria-label="Go to page 3"
+            aria-posinset="3"
+            aria-setsize="6"
+            class="page-link"
+            role="menuitemradio"
+            tabindex="-1"
+            type="button"
+          >
+            3
+          </button>
+        </li>
+        <li
+          class="page-item bv-d-xs-down-none"
+          role="presentation"
+        >
+          <button
+            aria-checked="false"
+            aria-label="Go to page 4"
+            aria-posinset="4"
+            aria-setsize="6"
+            class="page-link"
+            role="menuitemradio"
+            tabindex="-1"
+            type="button"
+          >
+            4
+          </button>
+        </li>
+        <li
+          class="page-item disabled bv-d-xs-down-none"
+          role="separator"
+        >
+          <span
+            class="page-link"
+          >
+            …
+          </span>
+        </li>
+        <!---->
+        <li
+          class="page-item"
+          role="presentation"
+        >
+          <button
+            aria-label="Go to next page"
+            class="page-link"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <svg-icon-stub
+              class="page-pagination__icon page-pagination__icon--next"
+              name="arrow"
+            />
+          </button>
+        </li>
+        <!---->
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BlockBlogGrid render blog grid with preloader overlay 1`] = `
+<div
+  class="blog-grid"
+>
+  <div
+    class="blog-grid__preloader"
+  />
+   
+  <div
+    class="container"
+  >
+    <ul
+      aria-disabled="false"
+      aria-label="Pagination"
+      class="pagination page-pagination blog-grid__top-pagination b-pagination"
+      role="menubar"
+    >
+      <!---->
+      <li
+        aria-hidden="true"
+        class="page-item disabled"
+        role="presentation"
+      >
+        <span
+          aria-disabled="true"
+          aria-label="Go to previous page"
+          class="page-link"
+          role="menuitem"
+        >
+          <svg-icon-stub
+            class="page-pagination__icon page-pagination__icon--prev"
+            name="arrow"
+          />
+        </span>
+      </li>
+      <!---->
+      <!---->
+      <li
+        class="page-item active"
+        role="presentation"
+      >
+        <button
+          aria-checked="true"
+          aria-label="Go to page 1"
+          aria-posinset="1"
+          aria-setsize="6"
+          class="page-link"
+          role="menuitemradio"
+          tabindex="0"
+          type="button"
+        >
+          1
+        </button>
+      </li>
+      <li
+        class="page-item"
+        role="presentation"
+      >
+        <button
+          aria-checked="false"
+          aria-label="Go to page 2"
+          aria-posinset="2"
+          aria-setsize="6"
+          class="page-link"
+          role="menuitemradio"
+          tabindex="-1"
+          type="button"
+        >
+          2
+        </button>
+      </li>
+      <li
+        class="page-item"
+        role="presentation"
+      >
+        <button
+          aria-checked="false"
+          aria-label="Go to page 3"
+          aria-posinset="3"
+          aria-setsize="6"
+          class="page-link"
+          role="menuitemradio"
+          tabindex="-1"
+          type="button"
+        >
+          3
+        </button>
+      </li>
+      <li
+        class="page-item bv-d-xs-down-none"
+        role="presentation"
+      >
+        <button
+          aria-checked="false"
+          aria-label="Go to page 4"
+          aria-posinset="4"
+          aria-setsize="6"
+          class="page-link"
+          role="menuitemradio"
+          tabindex="-1"
+          type="button"
+        >
+          4
+        </button>
+      </li>
+      <li
+        class="page-item disabled bv-d-xs-down-none"
+        role="separator"
+      >
+        <span
+          class="page-link"
+        >
+          …
+        </span>
+      </li>
+      <!---->
+      <li
+        class="page-item"
+        role="presentation"
+      >
+        <button
+          aria-label="Go to next page"
+          class="page-link"
+          role="menuitem"
+          tabindex="-1"
+          type="button"
+        >
+          <svg-icon-stub
+            class="page-pagination__icon page-pagination__icon--next"
+            name="arrow"
+          />
+        </button>
+      </li>
+      <!---->
+    </ul>
+     
+    <div
+      class="blog-grid__container"
+    >
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+      <div
+        class="blog-item"
+      >
+        <div
+          class="blog-item__preview"
+        >
+          <a
+            class="btn blog-item__link btn-outline-light"
+            href="blog/sovet-v-dekret-kak-podobrat-stilnye-letnie-platya-i-sarafany-dlya-beremennyh"
+            target="_self"
+          >
+            
+      buttons.readPost
+    
+          </a>
+           
+          <div
+            class="blog-item__overlay"
+          />
+           
+          <div
+            class="blog-item__image-wrapper"
+          >
+            <div
+              class="img-loader"
+            >
+              <picture>
+                <source
+                  data-srcset="/img/posts/post_xl.webp"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xl.jpg"
+                  media="(min-width: 1500px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.webp"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_lg.jpg"
+                  media="(min-width: 1200px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.webp"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_md.jpg"
+                  media="(min-width: 992px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.webp"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_sm.jpg"
+                  media="(min-width: 768px)"
+                  srcset="/img/stub.png"
+                />
+                 
+                <source
+                  data-srcset="/img/posts/post_xs.webp"
+                  srcset="/img/stub.png"
+                  type="image/webp"
+                />
+                 
+                <img
+                  alt="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                  class="blog-item__image lazyload"
+                  data-object-fit="cover"
+                  data-object-position="center"
+                  data-src="/img/posts/post_xs.jpg"
+                  loading="lazy"
+                  src="/img/stub.png"
+                  title="Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="blog-item__body"
+        >
+          <div
+            class="blog-item__title"
+          >
+            Совет в декрет! Как подобрать стильные летние платья и сарафаны для беременных?
+          </div>
+           
+          <div
+            class="blog-item__date"
+          >
+            17 июля 2018
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        aria-disabled="false"
+        aria-label="Pagination"
+        class="pagination page-pagination blog-grid__bottom-pagination b-pagination"
+        role="menubar"
+      >
+        <!---->
+        <li
+          aria-hidden="true"
+          class="page-item disabled"
+          role="presentation"
+        >
+          <span
+            aria-disabled="true"
+            aria-label="Go to previous page"
+            class="page-link"
+            role="menuitem"
+          >
+            <svg-icon-stub
+              class="page-pagination__icon page-pagination__icon--prev"
+              name="arrow"
+            />
+          </span>
+        </li>
+        <!---->
+        <!---->
+        <li
+          class="page-item active"
+          role="presentation"
+        >
+          <button
+            aria-checked="true"
+            aria-label="Go to page 1"
+            aria-posinset="1"
+            aria-setsize="6"
+            class="page-link"
+            role="menuitemradio"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+        </li>
+        <li
+          class="page-item"
+          role="presentation"
+        >
+          <button
+            aria-checked="false"
+            aria-label="Go to page 2"
+            aria-posinset="2"
+            aria-setsize="6"
+            class="page-link"
+            role="menuitemradio"
+            tabindex="-1"
+            type="button"
+          >
+            2
+          </button>
+        </li>
+        <li
+          class="page-item"
+          role="presentation"
+        >
+          <button
+            aria-checked="false"
+            aria-label="Go to page 3"
+            aria-posinset="3"
+            aria-setsize="6"
+            class="page-link"
+            role="menuitemradio"
+            tabindex="-1"
+            type="button"
+          >
+            3
+          </button>
+        </li>
+        <li
+          class="page-item bv-d-xs-down-none"
+          role="presentation"
+        >
+          <button
+            aria-checked="false"
+            aria-label="Go to page 4"
+            aria-posinset="4"
+            aria-setsize="6"
+            class="page-link"
+            role="menuitemradio"
+            tabindex="-1"
+            type="button"
+          >
+            4
+          </button>
+        </li>
+        <li
+          class="page-item disabled bv-d-xs-down-none"
+          role="separator"
+        >
+          <span
+            class="page-link"
+          >
+            …
+          </span>
+        </li>
+        <!---->
+        <li
+          class="page-item"
+          role="presentation"
+        >
+          <button
+            aria-label="Go to next page"
+            class="page-link"
+            role="menuitem"
+            tabindex="-1"
+            type="button"
+          >
+            <svg-icon-stub
+              class="page-pagination__icon page-pagination__icon--next"
+              name="arrow"
+            />
+          </button>
+        </li>
+        <!---->
+      </ul>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockPostTextContent render posts text 1`] = `
+<div
+  class="post-text-content"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="post-text-content__wrapper"
+    >
+      <p>
+        Последнее время, мы всё чаще слышим фразу «Made in Ukraine», она приобрела совсем новый смысл. Внезапно, стереотип “наше – значит плохо” сменился на полную противоположность. И дело не только в патриотизме! А в чем? 
+        <b>
+          Почему стоит выбирать именно украинский бренд?
+        </b>
+         Почему мы всё реже заглядываем в магазины известных масс-маркетов? Читай дальше!
+      </p>
+    </div>
+  </div>
+</div>
+`;

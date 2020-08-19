@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockCheckoutOrderItem has valid initial structure (discount) 1`] = `
+<div class="order-item"><button type="button" class="order-item__remove">
+    <svg-icon-stub name="trash" width="15" height="15" class="order-item__icon"></svg-icon-stub>
+  </button>
+  <div class="order-item__image-wrapper">
+    <div class="img-loader">
+      <picture>
+        <source data-srcset="/img/previews/preview-1-small.webp" srcset="/img/stub.png" type="image/webp"> <img data-src="/img/previews/preview-1-small.jpg" src="/img/stub.png" alt="Брюки кожаные с карманами" title="Брюки кожаные с карманами" loading="lazy" data-object-fit="cover" class="order-item__image lazyload"></picture>
+    </div>
+  </div>
+  <div class="order-item__body">
+    <nuxtlink-stub to="strujashheesja-platje-s-cvetochnym-printom-base-variant-1-7-0" class="order-item__name">
+      Брюки кожаные с карманами
+    </nuxtlink-stub>
+    <div class="order-item__price-wrapper">
+      <div class="order-item__price">
+        750 грн
+      </div>
+      <div class="order-item__old-price">
+        1500 грн
+      </div>
+    </div>
+    <div class="order-item__code">
+      productPage.sku: dress-base-variant-1-7
+    </div>
+    <div id="orderSize_2_0" class="options-select order-item__sizes">
+      <div class="options-select__active-option options-select__active-option--size">
+        XS
+        <svg-icon-stub name="chevron" width="10" height="10" class="options-select__icon"></svg-icon-stub>
+      </div>
+      <bpopover-stub target="orderSize_2_0" placement="bottom">
+        <div class="options-select__popover">
+          <div class="options-select__option options-select__option--size options-select__option--active">
+            XS
+          </div>
+          <div class="options-select__option options-select__option--size">
+            S
+          </div>
+          <div class="options-select__option options-select__option--size options-select__option--disabled">
+            M
+          </div>
+        </div>
+      </bpopover-stub>
+    </div>
+    <div class="counter order-item__counter"><button type="button" class="counter__toggle counter__toggle--decrease">
+        <svg-icon-stub name="minus" height="1" width="17" class="counter__icon"></svg-icon-stub>
+      </button> <input type="text" class="counter__input"> <button type="button" class="counter__toggle counter__toggle--increase">
+        <svg-icon-stub name="plus" height="17" width="17" class="counter__icon"></svg-icon-stub>
+      </button></div>
+  </div>
+</div>
+`;
+
+exports[`BlockCheckoutOrderItem has valid initial structure (regular) 1`] = `
+<div class="order-item"><button type="button" class="order-item__remove">
+    <svg-icon-stub name="trash" width="15" height="15" class="order-item__icon"></svg-icon-stub>
+  </button>
+  <div class="order-item__image-wrapper">
+    <div class="img-loader">
+      <picture>
+        <source data-srcset="/img/previews/preview-2-small.webp" srcset="/img/stub.png" type="image/webp"> <img data-src="/img/previews/preview-2-small.jpg" src="/img/stub.png" alt="Хлопковое платье" title="Хлопковое платье" loading="lazy" data-object-fit="cover" class="order-item__image lazyload"></picture>
+    </div>
+  </div>
+  <div class="order-item__body">
+    <nuxtlink-stub to="strujashheesja-platje-s-cvetochnym-printom-base-variant-1-7-1" class="order-item__name">
+      Хлопковое платье
+    </nuxtlink-stub>
+    <div class="order-item__price-wrapper">
+      <div class="order-item__price">
+        1500 грн
+      </div>
+    </div>
+    <div class="order-item__code">
+      productPage.sku: dress-base-variant-1-7
+    </div>
+    <div id="orderSize_1_0" class="options-select order-item__sizes">
+      <div class="options-select__active-option options-select__active-option--size">
+        XS
+        <svg-icon-stub name="chevron" width="10" height="10" class="options-select__icon"></svg-icon-stub>
+      </div>
+      <bpopover-stub target="orderSize_1_0" placement="bottom">
+        <div class="options-select__popover">
+          <div class="options-select__option options-select__option--size options-select__option--active">
+            XS
+          </div>
+          <div class="options-select__option options-select__option--size">
+            S
+          </div>
+          <div class="options-select__option options-select__option--size options-select__option--disabled">
+            M
+          </div>
+        </div>
+      </bpopover-stub>
+    </div>
+    <div class="counter order-item__counter"><button type="button" class="counter__toggle counter__toggle--decrease">
+        <svg-icon-stub name="minus" height="1" width="17" class="counter__icon"></svg-icon-stub>
+      </button> <input type="text" class="counter__input"> <button type="button" class="counter__toggle counter__toggle--increase">
+        <svg-icon-stub name="plus" height="17" width="17" class="counter__icon"></svg-icon-stub>
+      </button></div>
+  </div>
+</div>
+`;

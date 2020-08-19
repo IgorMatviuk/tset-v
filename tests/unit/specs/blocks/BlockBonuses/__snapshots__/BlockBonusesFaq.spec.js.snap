@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockBonusesFaq create bonuses vip block 1`] = `
+<div
+  class="bonuses-faq"
+>
+  <bcontainer-stub
+    tag="div"
+  >
+    <div
+      class="bonuses-faq__content"
+    >
+      <div
+        class="bonuses-faq__heading"
+      >
+        
+      </div>
+       
+      <blockbonusesfaqcollapse-stub
+        class="bonuses-faq__item"
+        content="[object Object]"
+      />
+      <blockbonusesfaqcollapse-stub
+        class="bonuses-faq__item"
+        content="[object Object]"
+      />
+      <blockbonusesfaqcollapse-stub
+        class="bonuses-faq__item"
+        content="[object Object]"
+      />
+    </div>
+  </bcontainer-stub>
+</div>
+`;

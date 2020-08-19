@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockAboutText has expected structure 1`] = `
+<div
+  class="about-text"
+>
+  <div
+    class="about-text__title"
+  >
+    <h1>
+      BlockAboutText content
+    </h1>
+  </div>
+   
+  <div
+    class="about-text__content"
+  >
+    <p>
+      BlockAboutText description
+    </p>
+  </div>
+</div>
+`;

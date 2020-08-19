@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockProductSlider renders slider container 1`] = `
+<div
+  class="product-slider"
+>
+  <div
+    class="product-slider__container swiper-container swiper-container-initialized swiper-container-horizontal"
+  >
+    <div
+      class="swiper-wrapper product-slider__wrapper"
+      style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+    >
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+    </div>
+     
+    <sliderpagination-stub
+      class="product-slider__pagination"
+    />
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      class="swiper-notification"
+    />
+  </div>
+</div>
+`;
+
+exports[`BlockProductSlider renders slider container without video 1`] = `
+<div
+  class="product-slider"
+>
+  <div
+    class="product-slider__container swiper-container swiper-container-initialized swiper-container-horizontal"
+  >
+    <div
+      class="swiper-wrapper product-slider__wrapper"
+      style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+    >
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+      <div
+        class="swiper-slide product-slider__slide"
+      >
+        <blockproductpreview-stub
+          item="[object Object]"
+        />
+      </div>
+    </div>
+     
+    <sliderpagination-stub
+      class="product-slider__pagination"
+    />
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      class="swiper-notification"
+    />
+  </div>
+</div>
+`;

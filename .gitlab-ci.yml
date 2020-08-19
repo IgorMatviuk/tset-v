@@ -1,0 +1,64 @@
+image: node:erbium
+
+variables:
+  DOCKER_TLS_CERTDIR: ''
+
+stages:
+  - test
+  - build
+  - post_deploy
+
+cache:
+  paths:
+    - node_modules/
+    - .yarn
+
+test:
+  stage: test
+  # before_script:
+  #   - apt-get update -qq && apt-get install -qy libelf1 libnss3
+  #   - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  #   - apt install -y ./goog.deble-chrome-stable_current_amd64
+  script:
+    - yarn config set cache-folder .yarn
+    - yarn install
+    # - yarn test
+    # Temporary solution
+    - yarn test:unit
+
+docker-build-master:
+  image: docker:latest
+  stage: build
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+  script:
+    - docker build --pull -t "$CI_REGISTRY_IMAGE" .
+    - docker push "$CI_REGISTRY_IMAGE"
+  only:
+    - master
+
+docker-build:
+  image: docker:latest
+  stage: build
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+  script:
+    - docker build --pull -t "$CI_REGISTRY_IMAGE:develop" .
+    - docker push "$CI_REGISTRY_IMAGE:develop"
+  only:
+    - /^release*$/
+
+generate-release-note:
+  only:
+    refs:
+      - tags
+  stage: post_deploy
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker container run -e GITLAB_PERSONAL_TOKEN=${GITLAB_ACCESS_TOKEN} -e GITLAB_API_ENDPOINT=${CI_API_V4_URL} -e GITLAB_PROJECT_ID=${CI_PROJECT_ID} 00freezy00/gitlab-release-note-generator

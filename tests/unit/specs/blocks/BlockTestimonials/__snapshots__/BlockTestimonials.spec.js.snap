@@ -1,0 +1,1379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlockTestimonials renders component with pagination 1`] = `
+<div
+  class="testimonials testimonials--is-page"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="section-header"
+    >
+      <div
+        class="section-header__title"
+      >
+        reviewsPage.title
+      </div>
+       
+      <div
+        class="section-header__navigation"
+      >
+        <ul
+          aria-disabled="false"
+          aria-label="Pagination"
+          class="pagination page-pagination testimonials__pagination b-pagination"
+          role="menubar"
+        >
+          <!---->
+          <li
+            aria-hidden="true"
+            class="page-item disabled"
+            role="presentation"
+          >
+            <span
+              aria-disabled="true"
+              aria-label="Go to previous page"
+              class="page-link"
+              role="menuitem"
+            >
+              <svg-icon-stub
+                class="page-pagination__icon page-pagination__icon--prev"
+                name="arrow"
+              />
+            </span>
+          </li>
+          <!---->
+          <!---->
+          <li
+            class="page-item active"
+            role="presentation"
+          >
+            <button
+              aria-checked="true"
+              aria-label="Go to page 1"
+              aria-posinset="1"
+              aria-setsize="6"
+              class="page-link"
+              role="menuitemradio"
+              tabindex="0"
+              type="button"
+            >
+              1
+            </button>
+          </li>
+          <li
+            class="page-item"
+            role="presentation"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Go to page 2"
+              aria-posinset="2"
+              aria-setsize="6"
+              class="page-link"
+              role="menuitemradio"
+              tabindex="-1"
+              type="button"
+            >
+              2
+            </button>
+          </li>
+          <li
+            class="page-item"
+            role="presentation"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Go to page 3"
+              aria-posinset="3"
+              aria-setsize="6"
+              class="page-link"
+              role="menuitemradio"
+              tabindex="-1"
+              type="button"
+            >
+              3
+            </button>
+          </li>
+          <li
+            class="page-item bv-d-xs-down-none"
+            role="presentation"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Go to page 4"
+              aria-posinset="4"
+              aria-setsize="6"
+              class="page-link"
+              role="menuitemradio"
+              tabindex="-1"
+              type="button"
+            >
+              4
+            </button>
+          </li>
+          <li
+            class="page-item disabled bv-d-xs-down-none"
+            role="separator"
+          >
+            <span
+              class="page-link"
+            >
+              …
+            </span>
+          </li>
+          <!---->
+          <li
+            class="page-item"
+            role="presentation"
+          >
+            <button
+              aria-label="Go to next page"
+              class="page-link"
+              role="menuitem"
+              tabindex="-1"
+              type="button"
+            >
+              <svg-icon-stub
+                class="page-pagination__icon page-pagination__icon--next"
+                name="arrow"
+              />
+            </button>
+          </li>
+          <!---->
+        </ul>
+      </div>
+    </div>
+     
+    <div
+      class="testimonials__slider-container"
+    >
+      <div
+        class="testimonials__slider swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper testimonials__slider-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide testimonials__slide"
+          >
+            <div
+              class="testimonials-card testimonials-card--is-page"
+            >
+              <div
+                class="testimonials-card__overlay"
+              />
+               
+              <div
+                class="testimonials-card__preview"
+              >
+                <div
+                  class="testimonials-card__img-wrapper"
+                >
+                  <div
+                    class="img-loader img-loader--negative"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/testimonials/mock-1__sm.webp"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-1__sm.jpg"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/jpeg"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-1__lg.webp"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Супер магазин"
+                        class="testimonials-card__img lazyload img-fade"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/testimonials/mock-1__lg.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Супер магазин"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="testimonials-card__buttons"
+              >
+                <button
+                  class="btn testimonials-card__button testimonials-card__button--read btn-outline-light"
+                  type="button"
+                >
+                  
+      buttons.readReview
+    
+                </button>
+                 
+                <!---->
+              </div>
+               
+              <div
+                class="testimonials-card__desc"
+              >
+                <div
+                  class="ratings testimonials-card__ratings ratings--light ratings--static"
+                >
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="testimonials-card__author"
+                >
+                  
+      Александра
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide testimonials__slide"
+          >
+            <div
+              class="testimonials-card testimonials-card--is-page"
+            >
+              <div
+                class="testimonials-card__overlay"
+              />
+               
+              <div
+                class="testimonials-card__preview"
+              >
+                <div
+                  class="testimonials-card__img-wrapper"
+                >
+                  <div
+                    class="img-loader img-loader--negative"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/testimonials/mock-2__sm.webp"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-2__sm.jpg"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/jpeg"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-2__lg.webp"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Спасибо, всем довольна"
+                        class="testimonials-card__img lazyload img-fade"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/testimonials/mock-2__lg.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Спасибо, всем довольна"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="testimonials-card__buttons"
+              >
+                <button
+                  class="btn testimonials-card__button testimonials-card__button--read btn-outline-light"
+                  type="button"
+                >
+                  
+      buttons.readReview
+    
+                </button>
+                 
+                <!---->
+              </div>
+               
+              <div
+                class="testimonials-card__desc"
+              >
+                <div
+                  class="ratings testimonials-card__ratings ratings--light ratings--static"
+                >
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="testimonials-card__author"
+                >
+                  
+      Инна
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide testimonials__slide"
+          >
+            <div
+              class="testimonials-card testimonials-card--is-page"
+            >
+              <div
+                class="testimonials-card__overlay"
+              />
+               
+              <div
+                class="testimonials-card__preview"
+              >
+                <div
+                  class="testimonials-card__img-wrapper"
+                >
+                  <div
+                    class="img-loader img-loader--negative"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/testimonials/mock-3__sm.webp"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-3__sm.jpg"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/jpeg"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-3__lg.webp"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Платье понравилось, но курьер ужасный"
+                        class="testimonials-card__img lazyload img-fade"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/testimonials/mock-3__lg.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Платье понравилось, но курьер ужасный"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="testimonials-card__buttons"
+              >
+                <button
+                  class="btn testimonials-card__button testimonials-card__button--read btn-outline-light"
+                  type="button"
+                >
+                  
+      buttons.readReview
+    
+                </button>
+                 
+                <!---->
+              </div>
+               
+              <div
+                class="testimonials-card__desc"
+              >
+                <div
+                  class="ratings testimonials-card__ratings ratings--light ratings--static"
+                >
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="testimonials-card__author"
+                >
+                  
+      Екатерина
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide testimonials__slide"
+          >
+            <div
+              class="testimonials-card testimonials-card--is-page"
+            >
+              <div
+                class="testimonials-card__overlay"
+              />
+               
+              <div
+                class="testimonials-card__preview"
+              >
+                <div
+                  class="testimonials-card__img-wrapper"
+                >
+                  <div
+                    class="img-loader img-loader--negative"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/testimonials/mock-4__sm.webp"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-4__sm.jpg"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/jpeg"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-4__lg.webp"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Супер магазин"
+                        class="testimonials-card__img lazyload img-fade"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/testimonials/mock-4__lg.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Супер магазин"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="testimonials-card__buttons"
+              >
+                <button
+                  class="btn testimonials-card__button testimonials-card__button--read btn-outline-light"
+                  type="button"
+                >
+                  
+      buttons.readReview
+    
+                </button>
+                 
+                <!---->
+              </div>
+               
+              <div
+                class="testimonials-card__desc"
+              >
+                <div
+                  class="ratings testimonials-card__ratings ratings--light ratings--static"
+                >
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="testimonials-card__author"
+                >
+                  
+      Александра
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="swiper-pagination testimonials__slider-pagination"
+        />
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BlockTestimonials renders component without pagination 1`] = `
+<div
+  class="testimonials"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="section-header"
+    >
+      <div
+        class="section-header__title"
+      >
+        reviewsPage.title
+      </div>
+       
+      <div
+        class="section-header__navigation"
+      >
+        <nuxtlink-stub
+          class="more-link testimonials__reviews"
+          to="reviews"
+        >
+          
+          buttons.allReviews
+         
+          <svg-icon-stub
+            class="more-link__icon"
+            height="9"
+            name="caret"
+            width="11"
+          />
+        </nuxtlink-stub>
+      </div>
+    </div>
+     
+    <div
+      class="testimonials__slider-container"
+    >
+      <div
+        class="testimonials__slider swiper-container swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper testimonials__slider-wrapper"
+          style="webkit-transition-duration: 0ms; transition-duration: 0ms; webkit-transform: translate3d(NaNpx, 0px, 0px); transform: translate3d(NaNpx, 0px, 0px);"
+        >
+          <div
+            class="swiper-slide testimonials__slide"
+          >
+            <div
+              class="testimonials-card"
+            >
+              <div
+                class="testimonials-card__overlay"
+              />
+               
+              <div
+                class="testimonials-card__preview"
+              >
+                <div
+                  class="testimonials-card__img-wrapper"
+                >
+                  <div
+                    class="img-loader img-loader--negative"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/testimonials/mock-1__sm.webp"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-1__sm.jpg"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/jpeg"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-1__lg.webp"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Супер магазин"
+                        class="testimonials-card__img lazyload img-fade"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/testimonials/mock-1__lg.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Супер магазин"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="testimonials-card__buttons"
+              >
+                <button
+                  class="btn testimonials-card__button testimonials-card__button--read btn-outline-light"
+                  type="button"
+                >
+                  
+      buttons.readReview
+    
+                </button>
+                 
+                <a
+                  class="btn testimonials-card__button testimonials-card__button--all-reviews btn-outline-light"
+                  href="testimonials"
+                  target="_self"
+                >
+                  
+      buttons.allReviews
+    
+                </a>
+              </div>
+               
+              <div
+                class="testimonials-card__desc"
+              >
+                <div
+                  class="ratings testimonials-card__ratings ratings--light ratings--static"
+                >
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="testimonials-card__author"
+                >
+                  
+      Александра
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide testimonials__slide"
+          >
+            <div
+              class="testimonials-card"
+            >
+              <div
+                class="testimonials-card__overlay"
+              />
+               
+              <div
+                class="testimonials-card__preview"
+              >
+                <div
+                  class="testimonials-card__img-wrapper"
+                >
+                  <div
+                    class="img-loader img-loader--negative"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/testimonials/mock-2__sm.webp"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-2__sm.jpg"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/jpeg"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-2__lg.webp"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Спасибо, всем довольна"
+                        class="testimonials-card__img lazyload img-fade"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/testimonials/mock-2__lg.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Спасибо, всем довольна"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="testimonials-card__buttons"
+              >
+                <button
+                  class="btn testimonials-card__button testimonials-card__button--read btn-outline-light"
+                  type="button"
+                >
+                  
+      buttons.readReview
+    
+                </button>
+                 
+                <a
+                  class="btn testimonials-card__button testimonials-card__button--all-reviews btn-outline-light"
+                  href="testimonials"
+                  target="_self"
+                >
+                  
+      buttons.allReviews
+    
+                </a>
+              </div>
+               
+              <div
+                class="testimonials-card__desc"
+              >
+                <div
+                  class="ratings testimonials-card__ratings ratings--light ratings--static"
+                >
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="testimonials-card__author"
+                >
+                  
+      Инна
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide testimonials__slide"
+          >
+            <div
+              class="testimonials-card"
+            >
+              <div
+                class="testimonials-card__overlay"
+              />
+               
+              <div
+                class="testimonials-card__preview"
+              >
+                <div
+                  class="testimonials-card__img-wrapper"
+                >
+                  <div
+                    class="img-loader img-loader--negative"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/testimonials/mock-3__sm.webp"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-3__sm.jpg"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/jpeg"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-3__lg.webp"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Платье понравилось, но курьер ужасный"
+                        class="testimonials-card__img lazyload img-fade"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/testimonials/mock-3__lg.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Платье понравилось, но курьер ужасный"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="testimonials-card__buttons"
+              >
+                <button
+                  class="btn testimonials-card__button testimonials-card__button--read btn-outline-light"
+                  type="button"
+                >
+                  
+      buttons.readReview
+    
+                </button>
+                 
+                <a
+                  class="btn testimonials-card__button testimonials-card__button--all-reviews btn-outline-light"
+                  href="testimonials"
+                  target="_self"
+                >
+                  
+      buttons.allReviews
+    
+                </a>
+              </div>
+               
+              <div
+                class="testimonials-card__desc"
+              >
+                <div
+                  class="ratings testimonials-card__ratings ratings--light ratings--static"
+                >
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="testimonials-card__author"
+                >
+                  
+      Екатерина
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide testimonials__slide"
+          >
+            <div
+              class="testimonials-card"
+            >
+              <div
+                class="testimonials-card__overlay"
+              />
+               
+              <div
+                class="testimonials-card__preview"
+              >
+                <div
+                  class="testimonials-card__img-wrapper"
+                >
+                  <div
+                    class="img-loader img-loader--negative"
+                  >
+                    <picture>
+                      <source
+                        data-srcset="/img/testimonials/mock-4__sm.webp"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/webp"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-4__sm.jpg"
+                        media="(max-width: 991px)"
+                        srcset="/img/stub.png"
+                        type="image/jpeg"
+                      />
+                       
+                      <source
+                        data-srcset="/img/testimonials/mock-4__lg.webp"
+                        type="image/webp"
+                      />
+                       
+                      <img
+                        alt="Супер магазин"
+                        class="testimonials-card__img lazyload img-fade"
+                        data-object-fit="cover"
+                        data-object-position="center"
+                        data-src="/img/testimonials/mock-4__lg.jpg"
+                        loading="lazy"
+                        src="/img/stub.png"
+                        title="Супер магазин"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+               
+              <div
+                class="testimonials-card__buttons"
+              >
+                <button
+                  class="btn testimonials-card__button testimonials-card__button--read btn-outline-light"
+                  type="button"
+                >
+                  
+      buttons.readReview
+    
+                </button>
+                 
+                <a
+                  class="btn testimonials-card__button testimonials-card__button--all-reviews btn-outline-light"
+                  href="testimonials"
+                  target="_self"
+                >
+                  
+      buttons.allReviews
+    
+                </a>
+              </div>
+               
+              <div
+                class="testimonials-card__desc"
+              >
+                <div
+                  class="ratings testimonials-card__ratings ratings--light ratings--static"
+                >
+                  <svg
+                    class="ratings__item"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                  <svg
+                    class="ratings__item ratings__item--active"
+                    height="12"
+                    viewBox="0 0 18 17"
+                    width="12"
+                  >
+                    <path
+                      d="M8.59998 0.993445L11.0775 5.24702L11.1884 5.43741L11.4037 5.48404L16.2147 6.52584L12.9349 10.1965L12.7881 10.3608L12.8102 10.58L13.3061 15.4774L8.8016 13.4925L8.59998 13.4036L8.39835 13.4925L3.89384 15.4774L4.3897 10.58L4.4119 10.3608L4.26509 10.1965L0.985289 6.52584L5.79626 5.48404L6.0116 5.43741L6.12249 5.24702L8.59998 0.993445Z"
+                    />
+                  </svg>
+                   
+                  <!---->
+                </div>
+                 
+                <div
+                  class="testimonials-card__author"
+                >
+                  
+      Александра
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="swiper-pagination testimonials__slider-pagination"
+        />
+        <span
+          aria-atomic="true"
+          aria-live="assertive"
+          class="swiper-notification"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

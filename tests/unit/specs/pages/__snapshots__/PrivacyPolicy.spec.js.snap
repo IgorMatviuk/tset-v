@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Privacy policy page has expected structure 1`] = `
+<main
+  class="privacy-policy-page"
+>
+  <thebreadcrumb-stub
+    isfloat="true"
+    items="[object Object],[object Object]"
+  />
+   
+  <blockprivacypolicy-stub />
+</main>
+`;

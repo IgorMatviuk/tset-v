@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartPreview renders cart items 1`] = `
+<div
+  class="functions__item functions__shopping-bag"
+  id="cartPopoverSync"
+>
+  <svg-icon-stub
+    class="functions__icon"
+    name="shopping-bag"
+  />
+   
+  <div
+    class="functions__items-count"
+  >
+    4
+  </div>
+   
+  <bpopover-stub
+    placement="bottom"
+    target="cartPopoverSync"
+  >
+    <div
+      class="cart-preview"
+    >
+      <div
+        class="cart-preview__header"
+      >
+        <span>
+          pages.cart:
+        </span>
+         
+        <span>
+          (4)
+        </span>
+      </div>
+       
+      <div
+        class="cart-preview__scroll-container ps cart-preview__scroll-container--active"
+      >
+        <div
+          class="cart-preview__body"
+        >
+          <cartpreviewitem-stub
+            item="[object Object]"
+          />
+          <cartpreviewitem-stub
+            item="[object Object]"
+          />
+          <cartpreviewitem-stub
+            item="[object Object]"
+          />
+          <cartpreviewitem-stub
+            item="[object Object]"
+          />
+        </div>
+        <div
+          class="ps__rail-x"
+          style="left: 0px; top: 0px;"
+        >
+          <div
+            class="ps__thumb-x"
+            style="left: 0px; width: 0px;"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="ps__rail-y"
+          style="top: 0px; left: 0px;"
+        >
+          <div
+            class="ps__thumb-y"
+            style="top: 0px; height: 0px;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="cart-preview__footer"
+      >
+        <span>
+          cart.total:
+        </span>
+         
+        <b>
+          3600 грн
+        </b>
+      </div>
+       
+      <button
+        class="btn cart-preview__btn-checkout btn-primary btn-block"
+        type="button"
+      >
+        
+        checkoutPage.checkout
+      
+      </button>
+    </div>
+     
+    <!---->
+  </bpopover-stub>
+</div>
+`;

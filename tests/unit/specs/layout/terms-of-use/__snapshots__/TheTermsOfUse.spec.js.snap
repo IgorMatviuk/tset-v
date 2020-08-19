@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheImageViewer render the terms of use 1`] = `
+<transition-stub
+  name="fade"
+>
+  <div
+    class="terms-of-use"
+  >
+    <div
+      class="terms-of-use__content"
+    >
+      <div
+        class="terms-of-use__text"
+      >
+        
+        termsOfUse.content
+        
+        <nuxtlink-stub
+          class="terms-of-use__link"
+          to="privacy-policy"
+        >
+          
+          termsOfUse.linkText
+        
+        </nuxtlink-stub>
+      </div>
+       
+      <button
+        class="btn terms-of-use__btn-accept btn-primary"
+        type="button"
+      >
+        
+        buttons.accept
+      
+      </button>
+       
+      <button
+        class="terms-of-use__close"
+        type="button"
+      >
+        <svg-icon-stub
+          class="terms-of-use__icon"
+          height="14"
+          name="close"
+          width="14"
+        />
+      </button>
+    </div>
+  </div>
+</transition-stub>
+`;
